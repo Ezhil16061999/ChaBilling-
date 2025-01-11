@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" width="19" height="19" version="1.1" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #0088a5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 40px;
+      }
+    </style>
+  </defs>
+  <g id="Quote_request" data-name="Quote request">
+    <g id="Quote_Request" data-name="Quote Request">
+      <path class="cls-1" d="M278.3,482.6l-47,9.4,9.4-47c3.1-15.5,10.7-29.7,21.9-40.9l172.9-172.9,56.6,56.6-172.9,172.9c-11.2,11.2-25.4,18.8-40.9,21.9Z"/>
+      <line class="cls-1" x1="380" y1="173.6" x2="380" y2="140"/>
+      <path class="cls-1" d="M260,20H60c-22.1,0-40,17.9-40,40v392c0,22.1,17.9,40,40,40h89.7"/>
+      <path class="cls-1" d="M380,140h-80c-22.1,0-40-17.9-40-40V20l120,120Z"/>
+    </g>
+    <line class="cls-1" x1="100" y1="212" x2="300" y2="212"/>
+    <line class="cls-1" x1="100" y1="292" x2="261.6" y2="292"/>
+    <line class="cls-1" x1="100" y1="372" x2="186" y2="372"/>
+  </g>
+</svg>
