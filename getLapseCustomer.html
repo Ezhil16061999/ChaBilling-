@@ -1,0 +1,1806 @@
+<html lang="en" dir="ltr" data-nav-layout="vertical" data-theme-mode="light" data-header-styles="gradient"
+  data-menu-styles="dark" loader="disable" data-vertical-style="overlay">
+
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Nayara Energy </title>
+  <meta name="Description" content="">
+  <meta name="Author" content="">
+  <meta name="keywords" content="">
+  <meta http-equiv="imagetoolbar" content="no">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/logo/nayara-favicon.ico" type="image/x-icon">
+  <!-- Bootstrap Css -->
+  <link id="style" href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Style Css -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/font/font-awesome.css" rel="stylesheet" />
+  <!-- Simplebar Css -->
+  <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <link href="assets/css/datatables/dataTables.bootstrap5.css" rel="stylesheet">
+  <link href="assets/css/responsive/responsive.bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/dropzone.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/flatpickr.min.css">
+  <!-- Select2 CSS -->
+  <link href="assets/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <!-- app-header -->
+    <header class="app-header">
+      <!-- Start::main-header-container -->
+      <div class="main-header-container container-fluid">
+        <!-- Start::header-content-left -->
+        <div class="header-content-left">
+          <!-- Start::header-element -->
+          <div class="header-element">
+            <div class="horizontal-logo">
+              <a href="dashboard.html" class="header-logo">
+                <img src="assets/images/logo/nayara_logo.png" alt="logo" class="desktop-logo">
+                <img src="assets/images/logo/nayara_logo.png" alt="logo" class="toggle-logo">
+                <img src="assets/images/logo/nayara_logo.png" alt="logo" class="desktop-dark">
+                <img src="assets/images/logo/nayara_logo.png" alt="logo" class="toggle-dark">
+              </a>
+            </div>
+          </div>
+          <!-- End::header-element -->
+          <!-- Start::header-element -->
+          <div class="header-element">
+            <!-- Start::header-link -->
+            <a aria-label="anchor" href="javascript:void(0);" class="sidemenu-toggle header-link"
+              data-bs-toggle="sidebar">
+              <span class="open-toggle me-2">
+                <img src="assets/images/media/menu.png" class="menu_toggle">
+              </span>
+            </a>
+            <!-- End::header-link -->
+          </div>
+          <!-- End::header-element -->
+        </div>
+        <!-- End::header-content-left -->
+        <!-- Start::header-content-right -->
+        <div class="header-content-right">
+          <!-- Start::header-element -->
+          <div class="header-element d-flex header-settings header-shortcuts-dropdown">
+            <a aria-label="anchor" href="javascript:void(0);" class=" header-link nav-link icon"
+              data-bs-toggle="offcanvas" data-bs-target="#apps" aria-controls="apps">
+              <img src="assets/images/media/fleet_plus.png" class="fleet_logo">
+            </a>
+          </div>
+          <div class="header-element mainuserProfile">
+            <!-- Start::header-link|dropdown-toggle -->
+            <a href="javascript:void(0);" class="header-link dropdown-toggle" id="mainHeaderProfile"
+              data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              <div class="d-flex align-items-center">
+                <div class="d-sm-flex wd-100p">
+                  <div class="avatar avatar-sm">
+                    <img alt="avatar" class="rounded-circle" src="assets/images/media/avatar.png">
+                  </div>
+                  <div class="ms-2 my-auto d-none d-xl-flex">
+                    <h6 class=" font-weight-semibold mb-0 fs-13 user-name d-sm-block d-none">Harry Jones</h6>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- End::header-link|dropdown-toggle -->
+            <ul class="dropdown-menu  border-0 main-header-dropdown  overflow-hidden header-profile-dropdown"
+              aria-labelledby="mainHeaderProfile">
+              <li>
+                <a class="dropdown-item" href="changePassword.html">
+                  <i class="fs-13 me-2 bx bx-user"></i>Change Password </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="contactUs.html">
+                  <i class="fs-13 me-2 bx bx-comment"></i> Contact Us </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="termCondition.html">
+                  <i class="fs-13 me-2 bx bx-cog"></i>T&C </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="aboutUs.html">
+                  <i class="fs-13 me-2 bx bx-help-circle"></i>About Us </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="login.html">
+                  <i class="fs-13 me-2 bx bx-arrow-to-right"></i>Log Out </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End::header-content-right -->
+      </div>
+      <!-- End::main-header-container -->
+    </header>
+    <!-- /app-header -->
+    <!-- Start::app-sidebar -->
+    <aside class="app-sidebar" id="sidebar">
+      <!-- Start::main-sidebar-header -->
+      <div class="main-sidebar-header">
+        <a href="dashboard.html" class="header-logo">
+          <img src="assets/images/logo/nayara_logo.png" alt="logo" class="desktop-logo s-30">
+          <img src="assets/images/logo/nayara_logo.png" alt="logo" class="toggle-logo s-30">
+          <img src="assets/images/logo/logo.png" alt="logo" class="desktop-dark h-40">
+          <img src="assets/images/logo/nayara_logo.png" alt="logo" class="toggle-dark toggle_width s-30">
+        </a>
+      </div>
+      <!-- End::main-sidebar-header -->
+      <!-- Start::main-sidebar -->
+      <div class="main-sidebar" id="sidebar-scroll" data-simplebar="init">
+        <div class="simplebar-wrapper" style="margin: -8px 0px -80px;">
+          <div class="simplebar-height-auto-observer-wrapper">
+            <div class="simplebar-height-auto-observer"></div>
+          </div>
+          <div class="simplebar-mask">
+            <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+              <div class="simplebar-content-wrapper" tabindex="0" role="region" aria-label="scrollable content"
+                style="height: 100%; overflow: hidden scroll;">
+                <div class="simplebar-content" style="padding: 8px 0px 80px;">
+                  <!-- Start::nav -->
+                  <nav class="main-menu-container nav nav-pills flex-column sub-open open active">
+                    <div class="slide-left active d-none" id="slide-left">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
+                      </svg>
+                    </div>
+                    <ul class="main-menu" style="display: block; margin-left: 0px; margin-right: 0px;">
+                      <li class="slide has-sub">
+                      <li class="slide">
+                        <a href="dashboard.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/dashboard.svg" class="icon_stl_15">
+                          </span>
+                          <span class="side-menu__label">Dashboards</span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="viewApp.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/update.svg" class="icon_stl_15">
+                          </span>
+                          <span class="side-menu__label">Update Profile</span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class="side-menu__icon">
+                            <img src="assets/svg/admin.svg" class="icon_stl_15">
+                          </span>
+                          <span class="side-menu__label">Admin</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1">
+                          <li class="slide">
+                            <a href="editUserHO.html" class="side-menu__item">
+                              <span>Update User Profile</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewOtpLog.html" class="side-menu__item">
+                              <span>View OTP Log</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getSDZMap.html" class="side-menu__item">
+                              <span>Zone State Division Master</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getSuspenseTransactions.html" class="side-menu__item">
+                              <span>Suspense Transaction</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getManualSettlement.html" class="side-menu__item">
+                              <span>Manual Settlement</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getMiscCrDrList.html" class="side-menu__item">
+                              <span>Misc Credit/Debit</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getUserRoles.html" class="side-menu__item">
+                              <span>Update Maker/Checker To Role</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewSearchedProfile.html" class="side-menu__item">
+                              <span>View Searched Profile</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="CreditDebitROWallet.html" class="side-menu__item">
+                              <span>Credit Debit RO Wallet</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getNEFTUpldData.html" class="side-menu__item">
+                              <span>NEFT Upload</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewPinLog.html" class="side-menu__item">
+                              <span>View PIN Log</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="aggreatorOnboarding.html" class="side-menu__item">
+                              <span>Aggregator Onboard</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewTagAggregatorDetails.html" class="side-menu__item">
+                              <span>Tag Aggregator to customer</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getEnableDisableRedemptionList.html" class="side-menu__item">
+                              <span>Enable/Disable Customer Redemption</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class="side-menu__icon">
+                            <img src="assets/svg/callcenter.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Call Center</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1">
+                          <li class="slide">
+                            <a href="viewUsrPwdDtls.html" class="side-menu__item">
+                              <span>Password Details</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewCPtsToCash.html" class="side-menu__item">
+                              <span>Redemption</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewCAddBankDetails.html" class="side-menu__item">
+                              <span>Profile Search</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getWalletInformation.html" class="side-menu__item">
+                              <span>Wallet Information</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <!-- End::slide__category -->
+                      <!-- Start::slide -->
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/fleet.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Fleet Management</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="customerFleetOnboarding.html" class="side-menu__item">
+                              <span>Customer On-boarding</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="submitPartialForms.html" class="side-menu__item">
+                              <span>View Partial Forms</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="onboardingCtrlRev.html" class="side-menu__item">
+                              <span>Onboarding Control Review(OCR)</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="onboardingStatusCtrlRev.html" class="side-menu__item">
+                              <span>Customer Onboarding Status</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getRegisteredUsersList.html" class="side-menu__item">
+                              <span>Authenticate Mobile</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getApprovalPendingStatus.html" class="side-menu__item">
+                              <span>Submitted Forms</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="javascript:void(0);" class="side-menu__item">
+                              <span>PAN Verification</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="kycDetailsApprovalCtlRev.html" class="side-menu__item">
+                              <span>RE-KYC APPROVAL</span>
+                            </a>
+                          </li>
+                          <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">Specific Control Review <i
+                                class="fa fa-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child2">
+                              <li class="slide">
+                                <a href="additionalOfficeLoc.html" class="side-menu__item">Additional office
+                                  location</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="slide">
+                            <a href="viewCustomerDetails.html" class="side-menu__item">
+                              <span>View Customer Details</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/vehile.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Vehicle Management</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getVehicleControlReviewList.html" class="side-menu__item">
+                              <span>Vehicle Control Review</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="vehicleReview.html" class="side-menu__item">
+                              <span>Vehicle Lifecycle</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getVehicleDetails.html" class="side-menu__item">
+                              <span>De-Map vehicle - Single entry option</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getVehicleDemapBulkUpload.html" class="side-menu__item">
+                              <span>De-Map vehicle - Bulk Upload</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getBlockUnblockVehicleList.html" class="side-menu__item">
+                              <span>Block/Unblock Vehicle</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getTRMRLocationDetails.html" class="side-menu__item">
+                              <span>Transfer/View Vehicle List</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getVehicleReport.html" class="side-menu__item">
+                              <span> Vehicle Report</span>
+                            </a>
+                          </li>
+                          <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">Admin Parameter <i
+                                class="fa fa-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child2">
+                              <li class="slide">
+                                <a href="eligibleFuelType.html" class="side-menu__item">Eligible Fuel Type</a>
+                              </li>
+                              <li class="slide">
+                                <a href="defaultLimitMaintenance.html" class="side-menu__item"> Limit Maintenance</a>
+                              </li>
+                              <li class="slide">
+                                <a href="adminParameter.html" class="side-menu__item">API Revalidation Duration</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="viewRoCredit.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/creditaccount.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">RO Credit Accounts</span></a>
+                      </li>
+                      <li class="slide"> <a href="issueEfuelSlip.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/invoice.svg" class="icon_stl_18"> </span> <span
+                            class="side-menu__label">Fuel Slips</span> </a>
+                      </li>
+                      <li class="slide"> <a href="getRODeviceMappingSummary.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/gas-station.svg" class="icon_stl_18"> </span> <span
+                            class="side-menu__label">Device Mapping Summary</span> </a>
+                      </li>
+                      <li class="slide"> <a href="getViewDeviceMappingReq.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/gas-station.svg" class="icon_stl_18"> </span> <span
+                            class="side-menu__label">Device Deletion / De-installation Request</span> </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item"> <span class=" side-menu__icon"> <img
+                              src="assets/svg/box.svg" class="icon_stl_18"> </span> <span
+                            class="side-menu__label">Loyalty Redemption</span> <i
+                            class="fa fa-chevron-right side-menu__angle"></i> </a>
+                        <ul class="slide-menu child1 "
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide"> <a href="viewPtsToCash.html" class="side-menu__item"><span>Redeem
+                                Points</span></a> </li>
+                          <li class="slide"> <a href="viewRedeemPoints.html" class="side-menu__item"><span>View Redeemed
+                                Points </span></a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide"> <a href="getRedemptionReportDtl.html" class="side-menu__item "> <span
+                            class=" side-menu__icon">
+                            <img src="assets/svg/box.svg" class="icon_stl_18"> </span> <span
+                            class="side-menu__label">Redemption Report</span> </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon"> <img src="assets/svg/bank.svg" class="icon_stl_18"> </span>
+                          <span class="side-menu__label">Virtual Account</span> <i
+                            class="fa fa-chevron-right side-menu__angle"></i> </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide"> <a href="viewVirtualAccountDtls.html" class="side-menu__item">
+                              <span> View Bank Account</span></a> </li>
+                          <li class="slide"> <a href="getVirtualAccountDtls.html" class="side-menu__item">
+                              <span> Virtual Account Details</span></a> </li>
+                          <li class="slide"> <a href="javascript:void(0);" class="side-menu__item">
+                              <span> Add Money</span></a> </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="getOffcList.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/officelocation.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Office Location</span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/statistic-report.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Reports</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getNEFTReport.html" class="side-menu__item">
+                              <span>NEFT Reports</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getTransactionHistory.html" class="side-menu__item">
+                              <span>Transaction History Report</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getNewTransactionHistory.html" class="side-menu__item">
+                              <span>New Transaction History Report</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getNewCustTransactionPointsReports.html" class="side-menu__item">
+                              <span>Daily Loyalty Points</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getIssuedEfsRptDtls.html" class="side-menu__item">
+                              <span>FastTrack MIS Report</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getLoyaltyEarnedRpt.html" class="side-menu__item">
+                              <span>Loyalty Earned Report</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getEfsDriverRpt.html" class="side-menu__item">
+                              <span> EFS Driver Report</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getRoRpt.html" class="side-menu__item">
+                              <span>RO Report</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getTDSLoyReport.html" class="side-menu__item">
+                              <span>TDS on Loyalty Report</span>
+                            </a>
+                          </li>
+                          <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">Reward Report <i
+                                class="fa fa-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child2">
+                              <li class="slide">
+                                <a href="rewardEligiblePaymentRpt.html" class="side-menu__item">Reward Eligible Payment
+                                  report</a>
+                              </li>
+                              <li class="slide">
+                                <a href="rewardEligiblePurchaseRpt.html" class="side-menu__item"> Reward Eligible
+                                  Purchase Report</a>
+                              </li>
+                              <li class="slide">
+                                <a href="rewardAllocatedRpt.html" class="side-menu__item">Rewards Allocated Report</a>
+                              </li>
+                              <li class="slide">
+                                <a href="getFpPointsRpt.html" class="side-menu__item">FP Points Report</a>
+                              </li>
+                              <li class="slide">
+                                <a href="getRewardCalculationRpt.html" class="side-menu__item">Reward calculation</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="slide">
+                            <a href="getDailyBalRpt.html" class="side-menu__item">
+                              <span>GL Account Balances</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="viewUserDetails.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/viewcustomer.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">View Customers</span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="getCustomerDetails.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/customer-information.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Customer Information</span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/management.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">User Management</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getDSAUserDtlsList.html" class="side-menu__item">
+                              <span>User</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="viewCustomerDtls.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/debt.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Sundaram Finance </span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="getLimitDtls.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/invoice.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Assign Fuel Slip Limit </span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="getRoCreditLimitDtls.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/creditlimit.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Assign RO Credit Limit </span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/customer-loyalty.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Loyalty</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="viewLoyaltySlab.html" class="side-menu__item">
+                              <span>Loyalty Slab</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="loyaltyAdjustment.html" class="side-menu__item">
+                              <span>Loyalty Adjustment</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewLoyaltyConversionLimit.html" class="side-menu__item">
+                              <span>Conversion Limit</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewLoyaltyAllowConversion.html" class="side-menu__item">
+                              <span>Allow Conversion</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewLoyaltyConvFactor.html" class="side-menu__item">
+                              <span>Conversion Factor</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="loyaltyExpiryPeriod.html" class="side-menu__item">
+                              <span>Loyalty Expiry Period</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="neftRecharges.html" class="side-menu__item">
+                              <span>NEFT Recharges</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewLoyaltyDisableCustomer.html" class="side-menu__item">
+                              <span>Disable Customer For Loyalty</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="viewCustomerStatement.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/statement.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Statement</span></a>
+                      </li>
+                      <li class="slide"> <a href="getOfflineTransactions.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/direct-marketing.svg" class="icon_stl_18"> </span> <span
+                            class="side-menu__label">Offline Transactions </span> </a>
+                      </li>
+                      <li class="slide">
+                        <a href="viewFinancialStatement.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/financestatement.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Financial Statement </span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/reporting.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">OLP Report</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getOLPTransactionHistory.html" class="side-menu__item">
+                              <span>Transaction History Report</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewOLPFinancialStatement.html" class="side-menu__item">
+                              <span>Financial Statement </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/account.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Bank Account</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="addBankAccountDtls.html" class="side-menu__item">
+                              <span>Add Bank Account</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getPendingBankDtls.html" class="side-menu__item">
+                              <span>Pending Bank Account</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/onboarding.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">RO OnBoarding</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getROList.html" class="side-menu__item">
+                              <span>Retail Outlet</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="transferToCMSCodeForHO.html" class="side-menu__item">
+                              <span>Transfer To CMS Code</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="assignRoCredit.html" class="side-menu__item">
+                              <span>RO Credit Accounts</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="setDeviceMappingLimitBulkUpload.html" class="side-menu__item">
+                              <span>Set Device Mapping Limit Bulk Upload</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="setDeviceMappingLimit.html" class="side-menu__item">
+                              <span>Set Device Mapping Limit</span></a>
+                          </li>
+                          <li class="slide"> <a href="getsavedROList.html" class="side-menu__item">
+                              <span>View Saved RO</span></a> </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="getROTxnLimit.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/transaction-limit.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">RO Transaction Limit</span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="getLoyUpldData.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/loyaltyupload.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Loyalty Upload </span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="roLocator.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/locator.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">RO Locator</span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/campaign-management.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Campaign Management</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getScheduledCampaignList.html" class="side-menu__item">
+                              <span>Campaign Management</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getCampaignSlabs.html" class="side-menu__item">
+                              <span>Assign Campaign Slab</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="getTxnList.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/fraud-alert.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Fraud Transactions</span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub active">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon active">
+                            <img src="assets/svg/crm.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label active">CRM</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">Lead Management <i
+                                class="fa fa-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child2">
+                              <li class="slide">
+                                <a href="getCRMLeadsInfo.html" class="side-menu__item">Dashboard</a>
+                              </li>
+                              <li class="slide">
+                                <a href="generateLead.html" class="side-menu__item">Lead Generation</a>
+                              </li>
+                              <li class="slide">
+                                <a href="initLeadUpld.html" class="side-menu__item">Leads Bulk Upload</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewLeads.html" class="side-menu__item">Manage Leads</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewMeetings.html" class="side-menu__item">Manage Follow Ups</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewMeetingCalendar.html" class="side-menu__item">View Meeting Calendar</a>
+                              </li>
+                              <li class="slide">
+                                <a href="generateExistingLead.html" class="side-menu__item">Existing Transporter branch
+                                  as Lead</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewVolumePotential.html" class="side-menu__item">Assign Volume potential</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewIncentiveSlabs.html" class="side-menu__item">Incentive Management</a>
+                              </li>
+                              <li class="slide">
+                                <a href="getLeadRpt.html" class="side-menu__item">Report Configuration</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewMeetingStatus.html" class="side-menu__item">Communication Engagement
+                                  Status</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">Complaint Management <i
+                                class="fa fa-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child2">
+                              <li class="slide">
+                                <a href="getComplaintsInfo.html" class="side-menu__item">Dashboard</a>
+                              </li>
+                              <li class="slide">
+                                <a href="initiateComplaint.html" class="side-menu__item">Complaint/Query Form</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewComplaintList.html" class="side-menu__item">Manage Complaint/Query</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewComplaintType.html" class="side-menu__item">Add Complaint Type</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewSLALimits.html" class="side-menu__item">SLA Limit Configuration</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">CRM Reports <i
+                                class="fa fa-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child2">
+                              <li class="slide">
+                                <a href="viewNewLeadRpt.html" class="side-menu__item">New Lead Report</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewLeadConvRpt.html" class="side-menu__item">Lead Conversion Report</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewLeadPipeLineRpt.html" class="side-menu__item">Leads Pipeline Report</a>
+                              </li>
+                              <li class="slide">
+                                <a href="viewColdLeadRpt.html" class="side-menu__item">Cold Leads Report</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="slide has-sub">
+                            <a href="javascript:void(0);" class="side-menu__item">Customer Lapse <i
+                                class="fa fa-chevron-right side-menu__angle"></i>
+                            </a>
+                            <ul class="slide-menu child2">
+                              <li class="slide has-sub">
+                                <a href="javascript:void(0);" class="side-menu__item">Customer Lapse <i
+                                    class="fa fa-chevron-right side-menu__angle"></i>
+                                </a>
+                                <ul class="slide-menu child3">
+                                  <li class="slide">
+                                    <a href="getCustomerLapseInfo.html" class="side-menu__item">Dashboard</a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="viewLapse.html" class="side-menu__item">Manage Lapse Customer</a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="viewMeetingsLapseCustomer.html" class="side-menu__item">Manage Follow
+                                      Ups</a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="viewMeetingCalendarLapse.html" class="side-menu__item">View Meeting
+                                      Calendar</a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="getConfigLapseInterval.html" class="side-menu__item">Configure Lapse
+                                      Customer Interval</a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="getPrioritiesUploadLapseCustomers.html" class="side-menu__item">Lapse
+                                      Customer Priority Upload </a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="getEscalationIntervalLapseCustomer.html" class="side-menu__item">Set
+                                      Escalation Interval For Lapse Customer</a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="getConfigureLapseCustomerPriority.html" class="side-menu__item">Configure
+                                      Lapse Customer Priority</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="slide has-sub">
+                                <a href="javascript:void(0);" class="side-menu__item">Customer Lapse Report <i
+                                    class="fa fa-chevron-right side-menu__angle"></i>
+                                </a>
+                                <ul class="slide-menu child3">
+                                  <li class="slide">
+                                    <a href="escalationReportLapse.html" class="side-menu__item">Escalation Report</a>
+                                  </li>
+                                  <li class="slide">
+                                    <a href="lapseCustomerDump.html" class="side-menu__item">Lapse Customer Dump</a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="viewTRMRDtls.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/truck.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Transporter Information</span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/reward.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Earn Point Posting</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getMonthlyLoyalty.html" class="side-menu__item">
+                              <span>Monthly Earn Point Posting</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getVadinarLoyalty.html" class="side-menu__item">
+                              <span>Vadinar Earn Point Posting</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getCampaignLoyalty.html" class="side-menu__item">
+                              <span>Campaign Earn Point Posting</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="getVadinarCOCO.html" class="side-menu__item">
+                              <span>Vadinar COCO Earn Point Posting</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="getROTransactionLimit.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/control.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">RO Manual Transactions Limit</span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="setCutomerSegmentation.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/customer-segment.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Customer Segmentation</span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="viewCashTrxnCappingLimit.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/wallet.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Cash Transaction Capping Limit</span>
+                        </a>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/bank-credit-card.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Declared Bank Account</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="addDeclareBankAccount.html" class="side-menu__item">
+                              <span>Declare Bank Account</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="viewDeclareBankAccount.html" class="side-menu__item">
+                              <span>View Declare Bank Account</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="editDeMapDeclareBankAccount.html" class="side-menu__item">
+                              <span>Edit / De-Map Declare Bank Account</span>
+                            </a>
+                          </li>
+                          <li class="slide">
+                            <a href="bulkUploadDeclareBankAccount.html" class="side-menu__item">
+                              <span>Declare Bank Account Bulk Upload</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide has-sub">
+                        <a href="javascript:void(0);" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/checker.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Checker</span>
+                          <i class="fa fa-chevron-right side-menu__angle"></i>
+                        </a>
+                        <ul class="slide-menu child1"
+                          style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+                          data-popper-placement="bottom" data-popper-escaped="">
+                          <li class="slide">
+                            <a href="getCustConnectCtrlRevList.html" class="side-menu__item">
+                              <span>Customer Update</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="slide">
+                        <a href="cmCustomerLifeCycle.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/lifecycle.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Customer Life Cycle</span>
+                        </a>
+                      </li>
+                      <li class="slide">
+                        <a href="getBannerList.html" class="side-menu__item">
+                          <span class=" side-menu__icon">
+                            <img src="assets/svg/bannermanagement.svg" class="icon_stl_18">
+                          </span>
+                          <span class="side-menu__label">Banner Management</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="slide-right d-none" id="slide-right">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                      </svg>
+                    </div>
+                  </nav>
+                  <!-- End::nav -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="simplebar-placeholder" style="width: auto; height: 1375px;"></div>
+        </div>
+        <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+          <div class="simplebar-scrollbar" style="width: 0px; transform: translate3d(0px, 0px, 0px); display: none;">
+          </div>
+        </div>
+        <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+          <div class="simplebar-scrollbar"
+            style="height: 660px; transform: translate3d(0px, 292px, 0px); display: block;"></div>
+        </div>
+      </div>
+      <!-- End::main-sidebar -->
+    </aside>
+    <!-- End::app-sidebar -->
+    <!-- Page Header -->
+    <div class="page-header-breadcrumb d-md-flex d-block align-items-center justify-content-between ">
+      <h4 class="fw-medium bg_title mb-0">Lead Generation</h4>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="javascript:void(0);" class="text-white-50">CRM</a>
+        </li>
+     
+        <li class="breadcrumb-item active" aria-current="page">Lapse Customer View
+        </li>
+      </ol>
+    </div>
+    <!-- Page Header Close -->
+    <!-- Start::app-content -->
+    <div class="main-content app-content">
+      <div class="container-fluid">
+        <!-- Start::row-1 -->
+        <div class="row">
+          <div class="col-xxl-12 col-xl-12">
+            <div class="col-xl-12">
+              <div class="card custom-card overflow-hidden">
+                <div class="row pd_15">
+                  <div class="col-md-12 newTableTheme">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <h1 class="title_terms">Lapse Customer View
+                        </h1>
+                        <form class="needs-validation" novalidate>
+                          <div class="row">
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="company_n" class="form-control border-bottom-only"
+                                  id="company_name" required placeholder="Company Name" value="Abi Agencies	">
+                                <label for="company_name">Company Name <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Company Name </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="ownertransporter_n" class="form-control border-bottom-only"
+                                  id="owner_transporter" required placeholder="Owner/Transporter Name" value="Abi">
+                                <label for="owner_transporter">Owner / Transporter Name <span
+                                    class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Owner / Transporter Name </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="transporter_m" class="form-control border-bottom-only"
+                                  id="transporter_mobile" required name="mobile" placeholder="Transporter Mobile"
+                                  maxlength="10" value="9599686974">
+                                <label for="transporter_mobile">Transporter Mobile <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Transporter Mobile</div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="email" name="email" class="form-control border-bottom-only" id="email"
+                                  placeholder="Email" value="">
+                                <label for="email">Email</label>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="volumeavepermonth" class="form-control border-bottom-only"
+                                  id="volumeavepermonth" required
+                                  placeholder="Volume average per month of last 6 transacting months" value="6568">
+                                <label for="volumeavepermonth">Volume average per month of last 6 transacting months
+                                  <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Volume average per month of last 6
+                                  transacting months </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="contactp/managern" class="form-control border-bottom-only"
+                                  id="contactpersong_managername" required placeholder="Contact Person / Manager Name"
+                                  value="Ronald">
+                                <label for="contactpersong_managername">Contact Person / Manager Name <span
+                                    class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Contact Person / Manager Name </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="contactp/managerp" class="form-control border-bottom-only"
+                                  id="contactpersong_managerphone" required placeholder="Contact Person / Manager Phone"
+                                  value="7044516316">
+                                <label for="contactpersong_managerphone">Contact Person / Manager Phone <span
+                                    class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Contact Person / Manager Phone </div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="Customer_Designation" class="form-control border-bottom-only"
+                                  id="Customer_Designation" required placeholder="Contact Person / Manager Phone"
+                                  value="7044516316">
+                                <label for="Customer_Designation">Customer Designation<span
+                                    class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Customer Designation</div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="alternate_m" class="form-control border-bottom-only"
+                                  id="alternate_m" name="mobile" placeholder="Transporter Mobile" maxlength="10"
+                                  value="9599686974">
+                                <label for="alternate_mobile">Alternate Mobile No
+                                </label>
+                                <div class="invalid-feedback">Please Enter Alternate Mobile No</div>
+                              </div>
+                            </div>
+                            <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" class="form-control border-bottom-only" id="address" required
+                                  placeholder="Address" value="sakinaka Mumbai">
+                                <label for="address">Address <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Address</div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="pincode" class="form-control border-bottom-only" id="pincode"
+                                  required placeholder="Pincode" value="400050">
+                                <label for="pincode">Pin Code <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Pin Code</div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="state" class="form-control border-bottom-only" id="state"
+                                  required placeholder="State" value="Maharashtra" disabled>
+                                <label for="pincode">State <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter State</div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="city " class="form-control border-bottom-only" id="city"
+                                  required placeholder="City" value="Mumbai" disabled>
+                                <label for="pincode">City <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter City </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="district" class="form-control border-bottom-only" id="district"
+                                  required placeholder="District" value="Mumbai" disabled>
+                                <label for="pincode">District <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter District </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="division" class="form-control border-bottom-only" id="division"
+                                  required placeholder="Division" value="Mumbai" disabled>
+                                <label for="pincode">Division <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Division</div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="zone" class="form-control border-bottom-only" id="zone "
+                                  required placeholder="zone" value="West I" disabled>
+                                <label for="pincode">Zone <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Zone</div>
+                              </div>
+                            </div>
+
+
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle ">
+                              <div class="col-xl-12 mb-3 select2-pd-a">
+                                <label for="type_of_transporter" class="form-label mb-1 bold_font pt-2">Type of
+                                  Transporter <span class="required_star">*</span>
+                                </label>
+                                <select class="form-select int-sty" id="type_of_transporter" name="type_of_transporter"
+                                  aria-label="Default select example" required>
+                                  <option value="0">Select</option>
+                                  <option value="FL" selected>Fleet</option>
+                                  <option value="NFL">Non Fleet</option>
+                                  <option value="SMN">Single Mobile Number</option>
+                                </select>
+                                <div class="invalid-feedback">Please Select Type of Transporter</div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="V_Potential" class="form-control border-bottom-only"
+                                  id="vpotential" required placeholder="Volume Potential (In KL)" value="50.000">
+                                <label for="V_Potential">Potential volume in Klts <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Potential volume in Klts</div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle">
+                              <label class="customFloatStyle slt-sty pt-1">First transaction date <span
+                                  class="required_star">*</span></label>
+                              <div class="d-flex mt-sm-0 pt-1 mt-2 align-items-center">
+                                <div class="input-group">
+                                  <input type="text" id="datepicker" data-input
+                                    class="form-control bg-light searchWithoutBorder"
+                                    aria-describedby="search-contact-member" />
+                                  <button aria-label="button" class="btn btnBlueStl searchIconwithoutBorder"
+                                    type="button" id="search-contact-member">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                  </button>
+                                </div>
+                                <div class="invalid-feedback">Please Select First transaction date</div>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle pt-1">
+                              <label class="customFloatStyle slt-sty">Last transaction date <span
+                                  class="required_star">*</span></label>
+                              <div class="d-flex mt-sm-0 pt-1 mt-2 align-items-center">
+                                <div class="input-group flatpickr">
+                                  <input type="text" id="datepickerTo" data-input
+                                    class="form-control bg-light searchWithoutBorder"
+                                    aria-describedby="search-contact-member1" />
+                                  <button aria-label="button" class="btn btnBlueStl searchIconwithoutBorder"
+                                    type="button" id="search-contact-member1">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                  </button>
+                                </div>
+                                <div class="invalid-feedback">Please Select Last transaction date</div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 noOuterStyle select-box-sty select2-pd-a-head pt-1">
+                              <label class="form-label bold_font">Lapse status <span
+                                  class="required_star">*</span></label>
+                              <select class="form-select int-sty" id="priorities">
+                                <option value="">Select Priority</option>
+                                <option value="Hot">Hot</option>
+                                <option value="Warm">Warm</option>
+                                <option value="Cold">Cold</option>
+                              </select>
+                            </div>
+
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="cassigned" class="form-control border-bottom-only"
+                                  id="cassigned" required placeholder="Currently Assigned" value="">
+                                <label for="cassigned">Currently Assigned to
+                                </label>
+                                <div class="invalid-feedback">Please Enter Currently Assigned</div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="ro_transaction" class="form-control border-bottom-only"
+                                  id="ro_transaction" required placeholder="RO Name on which last transaction was done"
+                                  value="">
+                                <label for="ro_transaction">RO Name on which last transaction was done <span
+                                    class="required_star">*</span></label>
+                                <div class="invalid-feedback">Please Enter RO Name on which last transaction was done
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="ro_cms" class="form-control border-bottom-only" id="ro_cms"
+                                  required placeholder="RO Name on which last transaction was done" value="">
+                                <label for="ro_cms">RO CMS code on which last transaction was done <span
+                                    class="required_star">*</span></label>
+                                <div class="invalid-feedback">Please Enter RO CMS code on which last transaction was
+                                  done</div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="ro_zone" class="form-control border-bottom-only" id="ro_zone"
+                                  placeholder="Ro zone" value="">
+                                <label for="ro_zone">RO Zone <span class="required_star">*</span></label>
+                                <div class="invalid-feedback">Please Enter RO Zone</div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="ro_division" class="form-control border-bottom-only"
+                                  id="ro_division" placeholder="Ro Division" value="">
+                                <label for="ro_zone">RO Division</label>
+                                <div class="invalid-feedback">Please Enter RO Division</div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="onboarded_by" class="form-control border-bottom-only"
+                                  id="onboarded_by" placeholder="Ro Division" value="">
+                                <label for="onboarded_by">Onboarded by</label>
+                                <div class="invalid-feedback">Please Enter Onboarded by</div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="original_target_date" class="form-control border-bottom-only"
+                                  id="original_target_date" placeholder="Ro Division" value="">
+                                <label for="original_target_date">Original Target date</label>
+                                <div class="invalid-feedback">Please Enter Original Target date</div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle mb-3">
+                              <label class="customFloatStyle slt-sty">Revised Revival date <span
+                                  class="required_star">*</span></label>
+                              <div class="d-flex mt-1">
+                                <div class="input-group me-3">
+                                  <input type="text" id="meetingDateInput"
+                                    class="form-control bg-light searchWithoutBorder flatpickr-input active"
+                                    aria-describedby="meetingDate" readonly="readonly" required>
+                                  <button aria-label="button" class="btn btnBlueStl searchIconwithoutBorder"
+                                    type="button" id="open-meeting-picker">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                  </button>
+                                  <div class="invalid-feedback">Please Enter Original Target date</div>
+                                </div>
+                                <button type="button"
+                                  class="btn label-btn generate-otp p-2 fs-12 align-self-end btngreen"
+                                  id="update_btn">Update</button>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle">
+                              <label class="customFloatStyle slt-sty">Activation Date</label>
+                              <div class="d-flex mt-sm-0 pt-1 mt-2 align-items-center">
+                                <div class="input-group">
+                                  <input type="text" id="datepicker3" data-input
+                                    class="form-control bg-light searchWithoutBorder"
+                                    aria-describedby="search-contact-member2" />
+                                  <button aria-label="button" class="btn btnBlueStl searchIconwithoutBorder"
+                                    type="button" id="search-contact-member2">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                              <div class="form-floating customFloatStyle mb-3 ">
+                                <input type="text" name="C_segment" class="form-control border-bottom-only"
+                                  id="C_segment" required="" placeholder="Customer Segment" value="">
+                                <label for="C_segment">Customer Segment <span class="required_star">*</span>
+                                </label>
+                                <div class="invalid-feedback">Please Enter Customer Segment</div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+                              <div class="col-xl-12   noOuterStyle mb-3">
+                                <label for="Otherstextarea" class="form-label mb-1 bold_font">Others (Describe)</label>
+                                <textarea class="form-control" name="Others-d" aria-label="With textarea" rows="1"
+                                  id="Otherstextarea"></textarea>
+                              </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle ">
+                              <div class="col-xl-12 mb-3 select2-pd-a pt-2">
+                                <label for="fuel_cp" class="form-label mb-1 bold_font">Fuel Consumption Pattern <span
+                                    class="required_star">*</span>
+                                </label>
+                                <select class="form-select int-sty select2-pd select2-hidden-accessible" id="fuel_cp"
+                                  name="fuel_cp" aria-label="Default select example" required=""
+                                  data-select2-id="select2-data-fuel_cp" tabindex="-1" aria-hidden="true">
+                                  <option value="31" data-select2-id="select2-data-9-jz86">Regularly month on month
+                                  </option>
+                                  <option value="32">Almost regular (exception of a month or two)</option>
+                                  <option value="33">Seasonal (2-3 months gaps expected in two business cycles)</option>
+                                  <option value="34">Seasonal (&gt;6 months gaps expected in two business cycles)
+                                  </option>
+                                  <option value="533751">Fuel consume regularly (10kl)</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle ">
+                              <div class="col-xl-12 mb-3 select2-pd-a pt-2">
+                                <label for="Buying_p" class="form-label mb-1 bold_font">Buying Pattern <span
+                                    class="required_star">*</span>
+                                </label>
+                                <select class="form-select int-sty select2-pd select2-hidden-accessible" id="Buying_p"
+                                  name="Buying_p" aria-label="Default select example" required=""
+                                  data-select2-id="select2-data-Buying_p" tabindex="-1" aria-hidden="true">
+                                  <option value="nayar" data-select2-id="select2-data-11-j3gt">Buys only from Nayara
+                                  </option>
+                                  <option value="buy" major="">Buys majority (&gt;75%) from Nayara, sometimes from
+                                    Competition</option>
+                                  <option value="nayarcompetion">50:50 from Nayara v/s Competition</option>
+                                  <option value="majoritycomp">Buys majority (&gt;75%) from Competition, sometimes from
+                                    Nayara (&lt;25%)</option>
+                                  <option value="competition">Buys wholly from competition</option>
+                                  <option value="alternate_">Alternate week -day 2022</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle ">
+                              <div class="col-xl-12 mb-3 select2-pd-a pt-2">
+                                <label for="Discount_req" class="form-label mb-1 bold_font">Discount Requirement <span
+                                    class="required_star">*</span>
+                                </label>
+                                <select class="form-select int-sty select2-pd select2-hidden-accessible"
+                                  id="Discount_req" name="Discount_r" aria-label="Default select example" required=""
+                                  data-select2-id="select2-data-Discount_req" tabindex="-1" aria-hidden="true">
+                                  <option value="025" data-select2-id="select2-data-13-9z0r">0-25 Paise/Ltr</option>
+                                  <option value="2550">25-50 Paise/Ltr</option>
+                                  <option value="5075">50-75 Paise/Ltr</option>
+                                  <option value="7510">75-100 Paise/Ltr</option>
+                                  <option value="10125">100-125 Paise/Ltr</option>
+                                  <option value="1215">125-150 Paise/Ltr</option>
+                                  <option value="1517">150-175 Paise/Ltr</option>
+                                  <option value="1720">175-200 Paise/Ltr</option>
+                                  <option value="above200">Above 200 Paise/Ltr</option>
+                                  <option value="500">500</option>
+                                  <option value="32">d32</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-4 col-sm-12 col-xs-12 noOuterStyle ">
+                              <div class="col-xl-12 mb-3 select2-pd-a pt-2">
+                                <label for="credit_req" class="form-label mb-1 bold_font">Credit Requirement <span
+                                    class="required_star">*</span>
+                                </label>
+                                <select class="form-select int-sty select2-pd select2-hidden-accessible" id="credit_req"
+                                  name="credit_r" aria-label="Default select example" required=""
+                                  data-select2-id="select2-data-credit_req" tabindex="-1" aria-hidden="true">
+                                  <option value="07" data-select2-id="select2-data-15-nq8i">0-7 Days</option>
+                                  <option value="715">7-15 Days</option>
+                                  <option value="1530">15-30 Days</option>
+                                  <option value="100">100</option>
+                                </select>
+
+                              </div>
+                            </div>
+
+
+
+
+
+                          </div>
+                          <div class="row mt-3">
+                            <div class="col-md-2 left_align">
+                              <a class="btn btnblue d-flex" href="viewLapse.html">
+                                <img src="assets/svg/Previous.svg" class="Previous-ion pl-5"> Back </a>
+                            </div>
+                            <!-- <div class="col-md-10 center_align">
+                                <button class="btn btngreen me-2" type="submit"  data-bs-toggle="modal" data-bs-target="#Savemsg"> Save </button>
+                                <button class="btn btnblue me-2" type="submit" >Submit</button>
+                                <button class="btn btnReset" type="reset"> Reset </button>
+                              </div> -->
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end col-->
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modal_popup" id="Savemsg" tabindex="-1" aria-labelledby="centeredModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered">
+        <div class="modal-content background_terms">
+          <div class="modal-body background_color">
+            <div class="mt-3">
+              <div class="">
+                <div class="ps-2">
+                  <div class="container text-cenger">
+                    <img src="assets/images/media/success.gif" class="notificationImg">
+                    <h1 class="title_success mt-2 mb-3 fs-24">Saved Successfully!</h1>
+                    <!-- <p class="messageStyle">Application Approved Successfully!</p> -->
+                    <div class="row">
+                      <div class="col-md-12 mt-3 mb-3">
+                        <button class="btn  btnGreen" data-bs-dismiss="modal">Continue</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- End::app-content -->
+    <!-- Footer Start -->
+    <footer class="footer mt-auto py-3 bg-white text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 left_align lh_27">
+            <span class="copy_right">2024 © Developed By Worldline</span>
+          </div>
+          <div class="col-md-8">
+            <ul class="ps-2 footer_menu">
+              <li class="p-1 ">
+                <a href="javascript:void(0)" class="text-primary">Complaint / Feedback</a>
+              </li>
+              <li class="p-1 ">
+                <a href="javascript:void(0)" class="text-primary">Disclaimer</a>
+              </li>
+              <li class="p-1 ">
+                <a href="javascript:void(0)" class="text-primary">Sitemap</a>
+              </li>
+              <li class="p-1 ">
+                <a href="javascript:void(0)" class="text-primary">Terms & Conditions</a>
+              </li>
+              <li class="p-1 ">
+                <a href="javascript:void(0)" class="text-primary">FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Bootstrap and other necessary libraries -->
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom scripts -->
+  <script src="assets/js/defaultmenu.min.js"></script>
+  <script src="assets/js/sticky.js"></script>
+  <script src="assets/js/select2.min.js"></script>
+  <script src="assets/js/flatpickr.min.js"></script>
+  <!-- file upload -->
+  <script src="assets/js/dropzone-min.js"></script>
+  <script>
+
+
+
+
+
+    $(document).ready(function () {
+      // Initialize Select2 for multiple dropdowns
+      $('#type_of_transporter, #fuel_cp, #Buying_p, #Discount_req, #credit_req, #priorities').select2({
+        placeholder: 'Select an option',
+        allowClear: false,
+        theme: 'classic'
+      });
+    });
+
+
+    $(document).ready(function () {
+      const firstTransactionDate = $('#datepicker').flatpickr({
+        dateFormat: "d-m-Y"
+      });
+      const lastTransactionDate = $('#datepickerTo').flatpickr({
+        dateFormat: "d-m-Y",
+        onChange: function (selectedDates, dateStr) {
+          firstTransactionDate.set("minDate", dateStr); // Set min date for first transaction
+        }
+      });
+      const revisedRevivalDate = $('#meetingDateInput').flatpickr({
+        dateFormat: "d-m-Y"
+      });
+      const activationDate = $('#datepicker3').flatpickr({
+        dateFormat: "d-m-Y"
+      });
+      $("#search-contact-member").on("click", function () {
+        firstTransactionDate.open();
+      });
+      $("#search-contact-member1").on("click", function () {
+        lastTransactionDate.open();
+      });
+      $("#open-meeting-picker").on("click", function () {
+        revisedRevivalDate.open();
+      });
+      $("#search-contact-member2").on("click", function () {
+        activationDate.open();
+      });
+    });
+
+
+
+    // Dropzone initialization using ES6 arrow function
+    const initializeDropzone = () => {
+      Dropzone.autoDiscover = false;
+      let dropzones = document.querySelectorAll('.dZUpload');
+
+      dropzones.forEach(dropzoneElement => {
+        new Dropzone(dropzoneElement, {
+          url: "/upload", // Your file upload URL
+          addRemoveLinks: true,
+          acceptedFiles: 'image/jpeg,image/png,application/pdf', // Allowed file types
+          maxFilesize: 2, // Maximum file size in MB (2 MB)
+          maxFiles: 1, // Only one file can be uploaded
+          init: function () {
+            this.on("maxfilesexceeded", function (file) {
+              this.removeAllFiles(); // Remove previous files if another is uploaded
+              this.addFile(file); // Add the new file
+            });
+          }
+        });
+      });
+    };
+
+    initializeDropzone(); // Call the function to initialize Dropzone
+
+    // Validation script start
+    document.getElementById("update_btn").addEventListener("click", function () {
+      const inputField = document.getElementById("meetingDateInput");
+      const feedback = inputField.nextElementSibling; // This is the invalid-feedback div
+
+      // Check if the input is valid
+      if (!inputField.value) {
+        inputField.classList.add("is-invalid"); // Add invalid class to the input
+        feedback.style.display = "block"; // Show feedback message
+      } else {
+        inputField.classList.remove("is-invalid"); // Remove invalid class if valid
+        feedback.style.display = "none"; // Hide feedback message
+
+        // If valid, you can show a success modal or perform other actions
+        $('#update').modal('show');  // Show Bootstrap success modal
+      }
+    });
+
+  </script>
+</body>
+
+</html>

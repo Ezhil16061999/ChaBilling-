@@ -1,0 +1,2911 @@
+<html lang="en" dir="ltr" data-nav-layout="vertical" data-theme-mode="light" data-header-styles="gradient"
+	data-menu-styles="dark" loader="disable" data-vertical-style="overlay">
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Nayara Energy </title>
+	<meta name="Description" content="">
+	<meta name="Author" content="">
+	<meta name="keywords" content="">
+	<!-- Favicon -->
+	<link rel="icon" href="assets/images/logo/nayara-favicon.ico" type="image/x-icon">
+	<!-- Bootstrap Css -->
+	<link id="style" href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Style Css -->
+	<link href="assets/css/styles.css" rel="stylesheet">
+	<link href="assets/css/font/font-awesome.css" rel="stylesheet" />
+	<!-- Simplebar Css -->
+	<link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<link href="assets/css/datatables/dataTables.bootstrap5.css" rel="stylesheet">
+	<link href="assets/css/responsive/responsive.bootstrap.min.css" rel="stylesheet">
+	<!-- Select2 CSS -->
+	<link href="assets/css/select2.min.css" rel="stylesheet" />
+	<link href="assets/css/dropzone.css" rel="stylesheet" />
+	<script src="assets/js/bootstrap.min.js"></script>
+	<meta http-equiv="imagetoolbar" content="no">
+</head>
+
+<body>
+	<div class="page1">
+		<!-- app-header -->
+		<header class="app-header">
+			<!-- Start::main-header-container -->
+			<div class="main-header-container container-fluid">
+				<!-- Start::header-content-left -->
+				<div class="header-content-left">
+					<!-- Start::header-element -->
+					<div class="header-element">
+						<div class="horizontal-logo">
+							<a href="dashboard.html" class="header-logo"> <img src="assets/images/logo/nayara_logo.png"
+									alt="logo" class="desktop-logo"> <img src="assets/images/logo/nayara_logo.png"
+									alt="logo" class="toggle-logo"> <img src="assets/images/logo/nayara_logo.png"
+									alt="logo" class="desktop-dark"> <img src="assets/images/logo/nayara_logo.png"
+									alt="logo" class="toggle-dark"> </a>
+						</div>
+					</div>
+					<!-- End::header-element -->
+					<!-- Start::header-element -->
+					<div class="header-element">
+						<!-- Start::header-link -->
+						<a aria-label="anchor" href="javascript:void(0);" class="sidemenu-toggle header-link"
+							data-bs-toggle="sidebar"> <span class="open-toggle me-2"> <img
+									src="assets/images/media/menu.png" class="menu_toggle"> </span> </a>
+						<!-- End::header-link -->
+					</div>
+					<!-- End::header-element -->
+				</div>
+				<!-- End::header-content-left -->
+				<!-- Start::header-content-right -->
+				<div class="header-content-right">
+					<!-- Start::header-element -->
+					<div class="header-element d-flex header-settings header-shortcuts-dropdown">
+						<a aria-label="anchor" href="javascript:void(0);" class=" header-link nav-link icon"
+							data-bs-toggle="offcanvas" data-bs-target="#apps" aria-controls="apps"> <img
+								src="assets/images/media/fleet_plus.png" class="fleet_logo"> </a>
+					</div>
+					<div class="header-element mainuserProfile">
+						<!-- Start::header-link|dropdown-toggle -->
+						<a href="javascript:void(0);" class="header-link dropdown-toggle" id="mainHeaderProfile"
+							data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+							<div class="d-flex align-items-center">
+								<div class="d-sm-flex wd-100p">
+									<div class="avatar avatar-sm"><img alt="avatar" class="rounded-circle"
+											src="assets/images/media/avatar.png"></div>
+									<div class="ms-2 my-auto d-none d-xl-flex">
+										<h6 class=" font-weight-semibold mb-0 fs-13 user-name d-sm-block d-none">Harry
+											Jones</h6>
+									</div>
+								</div>
+							</div>
+						</a>
+						<!-- End::header-link|dropdown-toggle -->
+						<ul class="dropdown-menu  border-0 main-header-dropdown  overflow-hidden header-profile-dropdown"
+							aria-labelledby="mainHeaderProfile">
+							<li><a class="dropdown-item" href="changePassword.html"><i
+										class="fs-13 me-2 bx bx-user"></i>Change
+									Password</a> </li>
+							<li><a class="dropdown-item" href="contactUs.html"><i class="fs-13 me-2 bx bx-comment"></i>
+									Contact
+									Us</a> </li>
+							<li><a class="dropdown-item" href="termCondition.html"><i
+										class="fs-13 me-2 bx bx-cog"></i>T&C</a> </li>
+							<li><a class="dropdown-item" href="aboutUs.html"><i
+										class="fs-13 me-2 bx bx-help-circle"></i>About
+									Us</a> </li>
+							<li><a class="dropdown-item" href="login.html"><i
+										class="fs-13 me-2 bx bx-arrow-to-right"></i>Log
+									Out</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- End::header-content-right -->
+			</div>
+			<!-- End::main-header-container -->
+		</header>
+		<!-- /app-header -->
+		<!-- Start::app-sidebar -->
+		<aside class="app-sidebar" id="sidebar">
+			<!-- Start::main-sidebar-header -->
+			<div class="main-sidebar-header">
+				<a href="dashboard.html" class="header-logo"> <img src="assets/images/logo/nayara_logo.png" alt="logo"
+						class="desktop-logo s-30"> <img src="assets/images/logo/nayara_logo.png" alt="logo"
+						class="toggle-logo s-30"> <img src="assets/images/logo/logo.png" alt="logo"
+						class="desktop-dark h-40"> <img src="assets/images/logo/nayara_logo.png" alt="logo"
+						class="toggle-dark toggle_width s-30"> </a>
+			</div>
+			<!-- End::main-sidebar-header -->
+			<!-- Start::main-sidebar -->
+			<div class="main-sidebar" id="sidebar-scroll" data-simplebar="init">
+				<div class="simplebar-wrapper" style="margin: -8px 0px -80px;">
+					<div class="simplebar-height-auto-observer-wrapper">
+						<div class="simplebar-height-auto-observer"></div>
+					</div>
+					<div class="simplebar-mask">
+						<div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+							<div class="simplebar-content-wrapper" tabindex="0" role="region"
+								aria-label="scrollable content" style="height: 100%; overflow: hidden scroll;">
+								<div class="simplebar-content" style="padding: 8px 0px 80px;">
+									<!-- Start::nav -->
+									<nav class="main-menu-container nav nav-pills flex-column sub-open open active">
+										<div class="slide-left active d-none" id="slide-left">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24"
+												height="24" viewBox="0 0 24 24">
+												<path
+													d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z">
+												</path>
+											</svg>
+										</div>
+										<ul class="main-menu"
+											style="display: block; margin-left: 0px; margin-right: 0px;">
+											<li class="slide has-sub">
+											<li class="slide">
+												<a href="dashboard.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/dashboard.svg" class="icon_stl_15"> </span>
+													<span class="side-menu__label">Dashboards</span> </a>
+											</li>
+											<li class="slide">
+												<a href="viewApp.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/update.svg" class="icon_stl_15"> </span>
+													<span class="side-menu__label">Update Profile</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class="side-menu__icon"><img src="assets/svg/admin.svg"
+															class="icon_stl_15"></span> <span
+														class="side-menu__label">Admin</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1">
+													<li class="slide">
+														<a href="editUserHO.html" class="side-menu__item"> <span>Update
+																User Profile</span> </a>
+													</li>
+													<li class="slide">
+														<a href="viewOtpLog.html" class="side-menu__item"> <span>View
+																OTP Log</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getSDZMap.html" class="side-menu__item"> <span>Zone
+																State Division Master</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getSuspenseTransactions.html" class="side-menu__item">
+															<span>Suspense Transaction</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getManualSettlement.html" class="side-menu__item">
+															<span>Manual Settlement</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getMiscCrDrList.html" class="side-menu__item">
+															<span>Misc Credit/Debit</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getUserRoles.html" class="side-menu__item">
+															<span>Update Maker/Checker To Role</span> </a>
+													</li>
+													<li class="slide">
+														<a href="viewSearchedProfile.html" class="side-menu__item">
+															<span>View Searched Profile</span> </a>
+													</li>
+													<li class="slide">
+														<a href="CreditDebitROWallet.html" class="side-menu__item">
+															<span>Credit Debit RO Wallet</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getNEFTUpldData.html" class="side-menu__item">
+															<span>NEFT Upload</span> </a>
+													</li>
+													<li class="slide">
+														<a href="viewPinLog.html" class="side-menu__item"> <span>View
+																PIN Log</span> </a>
+													</li>
+													<li class="slide">
+														<a href="aggreatorOnboarding.html" class="side-menu__item">
+															<span>Aggregator Onboard</span> </a>
+													</li>
+													<li class="slide">
+														<a href="viewTagAggregatorDetails.html" class="side-menu__item">
+															<span>Tag Aggregator to customer</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getEnableDisableRedemptionList.html"
+															class="side-menu__item"> <span>Enable/Disable Customer
+																Redemption</span> </a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class="side-menu__icon"> <img src="assets/svg/callcenter.svg"
+															class="icon_stl_18"></span> <span
+														class="side-menu__label">Call Center</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1">
+													<li class="slide">
+														<a href="viewUsrPwdDtls.html" class="side-menu__item">
+															<span>Password Details</span> </a>
+													</li>
+													<li class="slide">
+														<a href="viewCPtsToCash.html" class="side-menu__item">
+															<span>Redemption</span> </a>
+													</li>
+													<li class="slide">
+														<a href="viewCAddBankDetails.html" class="side-menu__item">
+															<span>Profile Search</span> </a>
+													</li>
+													<li class="slide">
+														<a href="getWalletInformation.html" class="side-menu__item">
+															<span>Wallet Information</span> </a>
+													</li>
+												</ul>
+											</li>
+											<!-- End::slide__category -->
+											<!-- Start::slide -->
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/fleet.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Fleet Management</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="customerFleetOnboarding.html" class="side-menu__item">
+															<span>Customer On-boarding</span></a>
+													</li>
+													<li class="slide">
+														<a href="submitPartialForms.html" class="side-menu__item">
+															<span>View Partial Forms</span></a>
+													</li>
+													<li class="slide">
+														<a href="onboardingCtrlRev.html" class="side-menu__item">
+															<span>Onboarding Control Review(OCR)</span></a>
+													</li>
+													<li class="slide">
+														<a href="onboardingStatusCtrlRev.html" class="side-menu__item">
+															<span>Customer Onboarding Status</span></a>
+													</li>
+													<li class="slide">
+														<a href="getRegisteredUsersList.html" class="side-menu__item">
+															<span>Authenticate Mobile</span></a>
+													</li>
+													<li class="slide">
+														<a href="getApprovalPendingStatus.html" class="side-menu__item">
+															<span>Submitted Forms</span></a>
+													</li>
+													<li class="slide">
+														<a href="javascript:void(0);" class="side-menu__item"> <span>PAN
+																Verification</span></a>
+													</li>
+													<li class="slide">
+														<a href="kycDetailsApprovalCtlRev.html" class="side-menu__item">
+															<span>RE-KYC APPROVAL</span></a>
+													</li>
+													<li class="slide has-sub"> <a href="javascript:void(0);"
+															class="side-menu__item">Specific Control Review
+															<i class="fa fa-chevron-right side-menu__angle"></i></a>
+														<ul class="slide-menu child2">
+															<li class="slide"> <a href="additionalOfficeLoc.html"
+																	class="side-menu__item">Additional office
+																	location</a> </li>
+														</ul>
+													</li>
+													<li class="slide">
+														<a href="viewCustomerDetails.html" class="side-menu__item">
+															<span>View Customer Details</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/vehile.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Vehicle
+														Management</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide"> <a href="addVehicle.html"
+															class="side-menu__item"><span>Vehicle Onboard - Single entry
+																option</span></a> </li>
+													<li class="slide"> <a href="vehicleOnBoardBulkUpload.html"
+															class="side-menu__item"><span>Vehicle Onboard - Bulk Upload
+															</span></a>
+													</li>
+													<li class="slide"> <a href="vehicleLimitUpdation.html"
+															class="side-menu__item"><span>Vehicle Limit Updation
+															</span></a> </li>
+													<li class="slide"> <a href="vehicleLimitUpdationBulkUpload.html"
+															class="side-menu__item"><span>Vehicle Limit Updation Bulk
+																Upload</span></a>
+													</li>
+													<li class="slide">
+														<a href="getVehicleControlReviewList.html"
+															class="side-menu__item"> <span>Vehicle Control
+																Review</span></a>
+													</li>
+													<li class="slide">
+														<a href="vehicleReview.html" class="side-menu__item">
+															<span>Vehicle Lifecycle</span></a>
+													</li>
+													<li class="slide">
+														<a href="getVehicleDetails.html" class="side-menu__item">
+															<span>De-Map vehicle - Single entry option</span></a>
+													</li>
+													<li class="slide">
+														<a href="getVehicleDemapBulkUpload.html"
+															class="side-menu__item"> <span>De-Map vehicle - Bulk
+																Upload</span></a>
+													</li>
+													<li class="slide">
+														<a href="getBlockUnblockVehicleList.html"
+															class="side-menu__item"> <span>Block/Unblock
+																Vehicle</span></a>
+													</li>
+													<li class="slide">
+														<a href="getTRMRLocationDetails.html" class="side-menu__item">
+															<span>Transfer/View Vehicle List</span></a>
+													</li>
+													<li class="slide">
+														<a href="getVehicleReport.html" class="side-menu__item"> <span>
+																Vehicle Report</span></a>
+													</li>
+													<li class="slide has-sub"> <a href="javascript:void(0);"
+															class="side-menu__item">Admin Parameter <i
+																class="fa fa-chevron-right side-menu__angle"></i></a>
+														<ul class="slide-menu child2">
+															<li class="slide"> <a href="eligibleFuelType.html"
+																	class="side-menu__item">Eligible Fuel Type</a> </li>
+															<li class="slide"> <a href="defaultLimitMaintenance.html"
+																	class="side-menu__item"> Limit Maintenance</a> </li>
+															<li class="slide"> <a href="adminParameter.html"
+																	class="side-menu__item">API Revalidation
+																	Duration</a> </li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="viewRoCredit.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/creditaccount.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">RO Credit Accounts</span></a>
+											</li>
+											<li class="slide"> <a href="issueEfuelSlip.html" class="side-menu__item">
+													<span class=" side-menu__icon">
+														<img src="assets/svg/invoice.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">Fuel Slips</span> </a>
+											</li>
+											<li class="slide"> <a href="getRODeviceMappingSummary.html"
+													class="side-menu__item">
+													<span class=" side-menu__icon">
+														<img src="assets/svg/gas-station.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Device Mapping Summary</span>
+												</a>
+											</li>
+											<li class="slide"> <a href="getViewDeviceMappingReq.html"
+													class="side-menu__item">
+													<span class=" side-menu__icon">
+														<img src="assets/svg/gas-station.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Device Deletion /
+														De-installation Request</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/box.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Loyalty Redemption</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1 "
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide"> <a href="viewPtsToCash.html"
+															class="side-menu__item"><span>Redeem Points</span></a> </li>
+													<li class="slide"> <a href="viewRedeemPoints.html"
+															class="side-menu__item"><span>View Redeemed Points
+															</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide"> <a href="getRedemptionReportDtl.html"
+													class="side-menu__item "> <span class=" side-menu__icon">
+														<img src="assets/svg/box.svg" class="icon_stl_18"> </span> <span
+														class="side-menu__label">Redemption Report</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item">
+													<span class=" side-menu__icon"> <img src="assets/svg/bank.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Virtual Account</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide"> <a href="viewVirtualAccountDtls.html"
+															class="side-menu__item">
+															<span> View Bank Account</span></a> </li>
+													<li class="slide"> <a href="getVirtualAccountDtls.html"
+															class="side-menu__item">
+															<span> Virtual Account Details</span></a> </li>
+													<li class="slide"> <a href="javascript:void(0);"
+															class="side-menu__item">
+															<span> Add Money</span></a> </li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="getOffcList.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/officelocation.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Office Location</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img
+															src="assets/svg/statistic-report.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Reports</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="getNEFTReport.html" class="side-menu__item"> <span>NEFT
+																Reports</span></a>
+													</li>
+													<li class="slide">
+														<a href="getTransactionHistory.html" class="side-menu__item">
+															<span>Transaction History Report</span></a>
+													</li>
+													<li class="slide">
+														<a href="getNewTransactionHistory.html" class="side-menu__item">
+															<span>New Transaction History Report</span></a>
+													</li>
+													<li class="slide">
+														<a href="getNewCustTransactionPointsReports.html"
+															class="side-menu__item"> <span>Daily Loyalty
+																Points</span></a>
+													</li>
+													<li class="slide">
+														<a href="getIssuedEfsRptDtls.html" class="side-menu__item">
+															<span>FastTrack MIS Report</span></a>
+													</li>
+													<li class="slide">
+														<a href="getLoyaltyEarnedRpt.html" class="side-menu__item">
+															<span>Loyalty Earned Report</span></a>
+													</li>
+													<li class="slide">
+														<a href="getEfsDriverRpt.html" class="side-menu__item"> <span>
+																EFS Driver Report</span></a>
+													</li>
+													<li class="slide">
+														<a href="getRoRpt.html" class="side-menu__item"> <span>RO
+																Report</span></a>
+													</li>
+													<li class="slide">
+														<a href="getTDSLoyReport.html" class="side-menu__item">
+															<span>TDS on Loyalty Report</span></a>
+													</li>
+													<li class="slide has-sub"> <a href="javascript:void(0);"
+															class="side-menu__item">Reward Report<i
+																class="fa fa-chevron-right side-menu__angle"></i></a>
+														<ul class="slide-menu child2">
+															<li class="slide"> <a href="rewardEligiblePaymentRpt.html"
+																	class="side-menu__item">Reward Eligible Payment
+																	report</a> </li>
+															<li class="slide"> <a href="rewardEligiblePurchaseRpt.html"
+																	class="side-menu__item"> Reward Eligible Purchase
+																	Report</a> </li>
+															<li class="slide"> <a href="rewardAllocatedRpt.html"
+																	class="side-menu__item">Rewards Allocated Report</a>
+															</li>
+															<li class="slide"> <a href="getFpPointsRpt.html"
+																	class="side-menu__item">FP
+																	Points Report</a> </li>
+															<li class="slide"> <a href="getRewardCalculationRpt.html"
+																	class="side-menu__item">Reward calculation</a> </li>
+														</ul>
+													</li>
+													<li class="slide">
+														<a href="getDailyBalRpt.html" class="side-menu__item"> <span>GL
+																Account Balances</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="viewUserDetails.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/viewcustomer.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">View Customers</span> </a>
+											</li>
+											<li class="slide">
+												<a href="getCustomerDetails.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/customer-information.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Customer Information</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/management.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">User
+														Management</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="getDSAUserDtlsList.html" class="side-menu__item">
+															<span>User</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="viewCustomerDtls.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/debt.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">Sundaram Finance </span> </a>
+											</li>
+											<li class="slide">
+												<a href="getLimitDtls.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/invoice.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">Assign Fuel Slip Limit </span> </a>
+											</li>
+											<li class="slide">
+												<a href="getRoCreditLimitDtls.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/creditlimit.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Assign RO Credit Limit
+													</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img
+															src="assets/svg/customer-loyalty.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Loyalty</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="viewLoyaltySlab.html" class="side-menu__item">
+															<span>Loyalty Slab</span></a>
+													</li>
+													<li class="slide">
+														<a href="loyaltyAdjustment.html" class="side-menu__item">
+															<span>Loyalty Adjustment</span></a>
+													</li>
+													<li class="slide">
+														<a href="viewLoyaltyConversionLimit.html"
+															class="side-menu__item"> <span>Conversion Limit</span></a>
+													</li>
+													<li class="slide">
+														<a href="viewLoyaltyAllowConversion.html"
+															class="side-menu__item"> <span>Allow Conversion</span></a>
+													</li>
+													<li class="slide">
+														<a href="viewLoyaltyConvFactor.html" class="side-menu__item">
+															<span>Conversion Factor</span></a>
+													</li>
+													<li class="slide">
+														<a href="loyaltyExpiryPeriod.html" class="side-menu__item">
+															<span>Loyalty Expiry Period</span></a>
+													</li>
+													<li class="slide">
+														<a href="neftRecharges.html" class="side-menu__item"> <span>NEFT
+																Recharges</span></a>
+													</li>
+													<li class="slide">
+														<a href="viewLoyaltyDisableCustomer.html"
+															class="side-menu__item"> <span>Disable Customer For
+																Loyalty</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="viewCustomerStatement.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/statement.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">Statement</span></a>
+											</li>
+											<li class="slide"> <a href="getOfflineTransactions.html"
+													class="side-menu__item">
+													<span class=" side-menu__icon">
+														<img src="assets/svg/direct-marketing.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Offline Transactions </span>
+												</a>
+											</li>
+											<li class="slide">
+												<a href="viewFinancialStatement.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/financestatement.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Financial Statement </span>
+												</a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/reporting.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">OLP
+														Report</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="getOLPTransactionHistory.html" class="side-menu__item">
+															<span>Transaction History Report</span></a>
+													</li>
+													<li class="slide">
+														<a href="viewOLPFinancialStatement.html"
+															class="side-menu__item"> <span>Financial Statement
+															</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/account.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Bank
+														Account</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="addBankAccountDtls.html" class="side-menu__item">
+															<span>Add Bank Account</span></a>
+													</li>
+													<li class="slide">
+														<a href="getPendingBankDtls.html" class="side-menu__item">
+															<span>Pending Bank Account</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/onboarding.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">RO
+														OnBoarding</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="getROList.html" class="side-menu__item"> <span>Retail
+																Outlet</span></a>
+													</li>
+													<li class="slide">
+														<a href="transferToCMSCodeForHO.html" class="side-menu__item">
+															<span>Transfer To CMS Code</span></a>
+													</li>
+													<li class="slide">
+														<a href="assignRoCredit.html" class="side-menu__item"> <span>RO
+																Credit Accounts</span></a>
+													</li>
+													<li class="slide">
+														<a href="setDeviceMappingLimitBulkUpload.html"
+															class="side-menu__item"> <span>Set Device Mapping Limit Bulk
+																Upload</span></a>
+													</li>
+													<li class="slide">
+														<a href="setDeviceMappingLimit.html" class="side-menu__item">
+															<span>Set Device Mapping Limit</span></a>
+													</li>
+													<li class="slide"> <a href="getsavedROList.html"
+															class="side-menu__item">
+															<span>View Saved RO</span></a> </li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="getROTxnLimit.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/transaction-limit.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">RO Transaction Limit</span>
+												</a>
+											</li>
+											<li class="slide">
+												<a href="getLoyUpldData.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/loyaltyupload.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Loyalty Upload </span> </a>
+											</li>
+											<li class="slide">
+												<a href="roLocator.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/locator.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">RO Locator</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img
+															src="assets/svg/campaign-management.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Campaign
+														Management</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="getScheduledCampaignList.html" class="side-menu__item">
+															<span>Campaign Management</span></a>
+													</li>
+													<li class="slide">
+														<a href="getCampaignSlabs.html" class="side-menu__item">
+															<span>Assign Campaign Slab</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="getTxnList.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/fraud-alert.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Fraud Transactions</span>
+												</a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/crm.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">CRM</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide has-sub"> <a href="javascript:void(0);"
+															class="side-menu__item">Lead Management<i
+																class="fa fa-chevron-right side-menu__angle"></i></a>
+														<ul class="slide-menu child2">
+															<li class="slide"> <a href="getCRMLeadsInfo.html"
+																	class="side-menu__item">Dashboard</a> </li>
+															<li class="slide"> <a href="generateLead.html"
+																	class="side-menu__item">Lead
+																	Generation</a> </li>
+															<li class="slide"> <a href="initLeadUpld.html"
+																	class="side-menu__item">Leads Bulk Upload</a> </li>
+															<li class="slide"> <a href="viewLeads.html"
+																	class="side-menu__item">Manage
+																	Leads</a> </li>
+															<li class="slide"> <a href="viewMeetings.html"
+																	class="side-menu__item">Manage Follow Ups</a> </li>
+															<li class="slide"> <a href="viewMeetingCalendar.html"
+																	class="side-menu__item">View Meeting Calendar</a>
+															</li>
+															<li class="slide"> <a href="generateExistingLead.html"
+																	class="side-menu__item">Existing Transporter branch
+																	as Lead</a> </li>
+															<li class="slide"> <a href="viewVolumePotential.html"
+																	class="side-menu__item">Assign Volume potential</a>
+															</li>
+															<li class="slide"> <a href="viewIncentiveSlabs.html"
+																	class="side-menu__item">Incentive Management</a>
+															</li>
+															<li class="slide"> <a href="getLeadRpt.html"
+																	class="side-menu__item">Report
+																	Configuration</a> </li>
+															<li class="slide"> <a href="viewMeetingStatus.html"
+																	class="side-menu__item">Communication Engagement
+																	Status</a> </li>
+														</ul>
+													</li>
+													<li class="slide has-sub"> <a href="javascript:void(0);"
+															class="side-menu__item">Complaint Management<i
+																class="fa fa-chevron-right side-menu__angle"></i></a>
+														<ul class="slide-menu child2">
+															<li class="slide"> <a href="getComplaintsInfo.html"
+																	class="side-menu__item">Dashboard</a> </li>
+															<li class="slide"> <a href="initiateComplaint.html"
+																	class="side-menu__item">Complaint/Query Form</a>
+															</li>
+															<li class="slide"> <a href="viewComplaintList.html"
+																	class="side-menu__item">Manage Complaint/Query</a>
+															</li>
+															<li class="slide"> <a href="viewComplaintType.html"
+																	class="side-menu__item">Add Complaint Type</a> </li>
+															<li class="slide"> <a href="viewSLALimits.html"
+																	class="side-menu__item">SLA
+																	Limit Configuration</a> </li>
+														</ul>
+													</li>
+													<li class="slide has-sub"> <a href="javascript:void(0);"
+															class="side-menu__item">CRM Reports<i
+																class="fa fa-chevron-right side-menu__angle"></i></a>
+														<ul class="slide-menu child2">
+															<li class="slide"> <a href="viewNewLeadRpt.html"
+																	class="side-menu__item">New Lead Report</a> </li>
+															<li class="slide"> <a href="viewLeadConvRpt.html"
+																	class="side-menu__item">Lead Conversion Report</a>
+															</li>
+															<li class="slide"> <a href="viewLeadPipeLineRpt.html"
+																	class="side-menu__item">Leads Pipeline Report</a>
+															</li>
+															<li class="slide"> <a href="viewColdLeadRpt.html"
+																	class="side-menu__item">Cold Leads Report</a> </li>
+														</ul>
+													</li>
+													<li class="slide has-sub"> <a href="javascript:void(0);"
+															class="side-menu__item">Customer Lapse <i
+																class="fa fa-chevron-right side-menu__angle"></i></a>
+														<ul class="slide-menu child2">
+															<li class="slide has-sub"> <a href="javascript:void(0);"
+																	class="side-menu__item">Customer Lapse <i
+																		class="fa fa-chevron-right side-menu__angle"></i></a>
+																<ul class="slide-menu child3">
+																	<li class="slide"> <a
+																			href="getCustomerLapseInfo.html"
+																			class="side-menu__item">Dashboard</a> </li>
+																	<li class="slide"> <a href="viewLapse.html"
+																			class="side-menu__item">Manage
+																			Lapse Customer</a> </li>
+																	<li class="slide"> <a
+																			href="viewMeetingsLapseCustomer.html"
+																			class="side-menu__item">Manage Follow
+																			Ups</a> </li>
+																	<li class="slide"> <a
+																			href="viewMeetingCalendarLapse.html"
+																			class="side-menu__item">View Meeting
+																			Calendar</a> </li>
+																	<li class="slide"> <a
+																			href="getConfigLapseInterval.html"
+																			class="side-menu__item">Configure Lapse
+																			Customer Interval</a> </li>
+																	<li class="slide"> <a
+																			href="getPrioritiesUploadLapseCustomers.html"
+																			class="side-menu__item">Lapse Customer
+																			Priority Upload </a> </li>
+																	<li class="slide"> <a
+																			href="getEscalationIntervalLapseCustomer.html"
+																			class="side-menu__item">Set Escalation
+																			Interval For Lapse
+																			Customer</a> </li>
+																	<li class="slide"> <a
+																			href="getConfigureLapseCustomerPriority.html"
+																			class="side-menu__item">Configure Lapse
+																			Customer Priority</a> </li>
+																</ul>
+															</li>
+															<li class="slide has-sub"> <a href="javascript:void(0);"
+																	class="side-menu__item">Customer Lapse
+																	Report <i
+																		class="fa fa-chevron-right side-menu__angle"></i></a>
+																<ul class="slide-menu child3">
+																	<li class="slide"> <a
+																			href="escalationReportLapse.html"
+																			class="side-menu__item">Escalation
+																			Report</a> </li>
+																	<li class="slide"> <a href="lapseCustomerDump.html"
+																			class="side-menu__item">Lapse Customer
+																			Dump</a> </li>
+																</ul>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="viewTRMRDtls.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/truck.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">Transporter Information</span> </a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/reward.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Earn Point
+														Posting</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="getMonthlyLoyalty.html" class="side-menu__item">
+															<span>Monthly Earn Point Posting</span></a>
+													</li>
+													<li class="slide">
+														<a href="getVadinarLoyalty.html" class="side-menu__item">
+															<span>Vadinar Earn Point Posting</span></a>
+													</li>
+													<li class="slide">
+														<a href="getCampaignLoyalty.html" class="side-menu__item">
+															<span>Campaign Earn Point Posting</span></a>
+													</li>
+													<li class="slide">
+														<a href="getVadinarCOCO.html" class="side-menu__item">
+															<span>Vadinar COCO Earn Point Posting</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="getROTransactionLimit.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/control.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">RO Manual Transactions Limit</span>
+												</a>
+											</li>
+											<li class="slide">
+												<a href="setCutomerSegmentation.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/customer-segment.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Customer Segmentation</span>
+												</a>
+											</li>
+											<li class="slide">
+												<a href="viewCashTrxnCappingLimit.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/wallet.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">Cash Transaction Capping Limit</span>
+												</a>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img
+															src="assets/svg/bank-credit-card.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Declared Bank
+														Account</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="addDeclareBankAccount.html" class="side-menu__item">
+															<span>Declare Bank Account</span></a>
+													</li>
+													<li class="slide">
+														<a href="viewDeclareBankAccount.html" class="side-menu__item">
+															<span>View Declare Bank Account</span></a>
+													</li>
+													<li class="slide">
+														<a href="editDeMapDeclareBankAccount.html"
+															class="side-menu__item"> <span>Edit / De-Map Declare Bank
+																Account</span></a>
+													</li>
+													<li class="slide">
+														<a href="bulkUploadDeclareBankAccount.html"
+															class="side-menu__item"> <span>Declare Bank Account Bulk
+																Upload</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide has-sub">
+												<a href="javascript:void(0);" class="side-menu__item"> <span
+														class=" side-menu__icon"> <img src="assets/svg/checker.svg"
+															class="icon_stl_18"> </span> <span
+														class="side-menu__label">Checker</span> <i
+														class="fa fa-chevron-right side-menu__angle"></i> </a>
+												<ul class="slide-menu child1"
+													style="position: relative; left: 0px; top: 0px; margin: 0px; transform: translate(177px, 298px);"
+													data-popper-placement="bottom" data-popper-escaped="">
+													<li class="slide">
+														<a href="getCustConnectCtrlRevList.html"
+															class="side-menu__item"> <span>Customer Update</span></a>
+													</li>
+												</ul>
+											</li>
+											<li class="slide">
+												<a href="cmCustomerLifeCycle.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/lifecycle.svg" class="icon_stl_18"> </span>
+													<span class="side-menu__label">Customer Life Cycle</span> </a>
+											</li>
+											<li class="slide">
+												<a href="getBannerList.html" class="side-menu__item"> <span
+														class=" side-menu__icon">
+														<img src="assets/svg/bannermanagement.svg" class="icon_stl_18">
+													</span> <span class="side-menu__label">Banner Management</span> </a>
+											</li>
+										</ul>
+										<div class="slide-right d-none" id="slide-right">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24"
+												height="24" viewBox="0 0 24 24">
+												<path
+													d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z">
+												</path>
+											</svg>
+										</div>
+									</nav>
+									<!-- End::nav -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="simplebar-placeholder" style="width: auto; height: 1375px;"></div>
+				</div>
+				<div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+					<div class="simplebar-scrollbar"
+						style="width: 0px; transform: translate3d(0px, 0px, 0px); display: none;"></div>
+				</div>
+				<div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+					<div class="simplebar-scrollbar"
+						style="height: 660px; transform: translate3d(0px, 292px, 0px); display: block;"></div>
+				</div>
+			</div>
+			<!-- End::main-sidebar -->
+		</aside>
+		<!-- End::app-sidebar -->
+		<!-- Page Header -->
+		<div class="page-header-breadcrumb d-md-flex d-block align-items-center justify-content-between ">
+			<h4 class="fw-medium bg_title mb-0">Customer On-boarding</h4>
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="javascript:void(0);" class="text-white-50">Fleet Management</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">Customer On-boarding</li>
+			</ol>
+		</div>
+		<!-- Page Header Close -->
+		<!-- Start::app-content -->
+		<div class="main-content app-content">
+			<div class="container-fluid">
+				<!-- Start::row-1 -->
+				<div class="row">
+					<div class="col-xxl-12 col-xl-12">
+						<div class="col-xl-12">
+							<div class="card custom-card overflow-hidden ">
+
+								<div class="row pd_15">
+									<div class="col-md-12 newTableTheme">
+										<div class="row">
+											<div class="col-lg-3 border_right_1">
+
+												<div class="nav nav-pills flex-column nav-pills-tab text-center"
+													role="tablist" aria-orientation="vertical">
+													<a class="nav-link d-flex mb-2 active" id="organization-details-tab"
+														data-toggle="pill" href="#organization-details" role="tab">
+														<div class="tabtitle">Organization Details</div>
+														<div
+															class="tabicon d-flex align-items-baseline justify-content-end">
+															<img src="assets/svg/approved.svg"
+																class="step-icon icon_approved">
+															<img src="assets/svg/Processing.svg"
+																class="step-icon icon_processing">
+														</div>
+													</a>
+													<a class="nav-link d-flex mb-2" id="fleet-operator-details-tab"
+														data-toggle="pill" href="#fleet-operator-details" role="tab">
+														<div class="tabtitle">Fleet Operator Details</div>
+														<div
+															class="tabicon d-flex align-items-baseline justify-content-end">
+															<img src="assets/svg/approved.svg"
+																class="step-icon icon_approved">
+															<img src="assets/svg/Processing.svg"
+																class="step-icon icon_processing">
+														</div>
+													</a>
+													<a class="nav-link d-flex mb-2" id="organization-address-tab"
+														data-toggle="pill" href="#organization-address" role="tab">
+														<div class="tabtitle">Organization Address</div>
+														<div
+															class="tabicon d-flex align-items-baseline justify-content-end">
+															<img src="assets/svg/approved.svg"
+																class="step-icon icon_approved">
+															<img src="assets/svg/Processing.svg"
+																class="step-icon icon_processing">
+														</div>
+													</a>
+													<a class="nav-link d-flex mb-2" id="branch-office-location-tab"
+														data-toggle="pill" href="#branch-office-location" role="tab">
+														<div class="tabtitle">Branch Office Location</div>
+														<div
+															class="tabicon d-flex align-items-baseline justify-content-end">
+															<img src="assets/svg/approved.svg"
+																class="step-icon icon_approved">
+															<img src="assets/svg/Processing.svg"
+																class="step-icon icon_processing">
+														</div>
+													</a>
+													<a class="nav-link d-flex mb-2" id="additional-details-tab"
+														data-toggle="pill" href="#additional-details" role="tab">
+														<div class="tabtitle">Additional Details</div>
+														<div
+															class="tabicon d-flex align-items-baseline justify-content-end">
+															<img src="assets/svg/approved.svg"
+																class="step-icon icon_approved">
+															<img src="assets/svg/Processing.svg"
+																class="step-icon icon_processing">
+														</div>
+													</a>
+													<a class="nav-link d-flex mb-2" id="customer-meeting-details-tab"
+														data-toggle="pill" href="#customer-meeting-details" role="tab">
+														<div class="tabtitle">Customer Meeting Details</div>
+														<div
+															class="tabicon d-flex align-items-baseline justify-content-end">
+															<img src="assets/svg/approved.svg"
+																class="step-icon icon_approved">
+															<img src="assets/svg/Processing.svg"
+																class="step-icon icon_processing">
+														</div>
+													</a>
+
+												</div>
+
+
+
+											</div>
+											<!-- end col-->
+											<div class="col-lg-9 ">
+												<div class="tab-content text-muted mt-3 mt-lg-0">
+													<div class="tab-pane fade show active border-0"
+														id="organization-details" role="tabpanel">
+														<h1 class="title_terms mb-3">Organization Details</h1>
+
+														<form class="needs-validation" novalidate>
+															<div class="row">
+
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3 ">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="Legal_Name" required
+																			placeholder="Legal Name" value="">
+																		<label for="Legal_Name">Legal Name (Name as per
+																			PAN) <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter Legal
+																			Name</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="PAN_Holder_Date" required
+																			placeholder=">PAN Holder Date Of Incorporation"
+																			value="">
+																		<label for="PAN_Holder_Date">PAN Holder Date Of
+																			Incorporation(DOB) <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter PAN
+																			Holder Date Of Incorporation(DOB)</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12 ">
+																	<div class="d-flex mb-3">
+																		<div
+																			class="form-floating customFloatStyle flex-grow-1 me-2">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="Pan_Number" required
+																				placeholder="PAN Number" value="">
+																			<label for="Pan_Number">PAN Number <span
+																					class="required_star">*</span></label>
+																			<div class="invalid-feedback">Please Enter
+																				PAN Number</div>
+																		</div>
+
+																		<button type="button"
+																			class="btn label-btn generate-otp p-2 fs-12 align-self-end"><img
+																				src="assets/svg/Check_mark.svg"
+																				class="px-1" alt=""> Verify</button>
+																	</div>
+																</div>
+
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<label class="upload-btn-label">Upload PAN Copy
+																		<span class="required_star">*</span></label>
+																	<div class="dropzone mt-1 dZUpload">
+																		<div class="dz-default dz-message">
+																			<button class="dz-button" type="button"
+																				required>
+																				<img src="assets/svg/file_upload.svg"
+																					class="file-upload-icons" alt="">
+																				Drop Files Here or <span>Browse</span>
+																			</button>
+																		</div>
+																	</div>
+																	<label class="info">Please select jpg, pdf, png
+																		formats only and attach a file up to 2 MB
+																		size</label>
+																	<div class="invalid-feedback">Please Upload PAN
+																		document file</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="d-flex mb-3  mt-3">
+																		<div
+																			class="form-floating customFloatStyle flex-grow-1 me-2">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="GST_Number" placeholder="GST Number"
+																				value="">
+																			<label for="GST_Number">GST Number</label>
+																			<div class="invalid-feedback">Please Upload
+																				PAN document file</div>
+																		</div>
+																		<button type="button"
+																			class="btn label-btn generate-otp p-2 fs-12 align-self-end"><img
+																				src="assets/svg/Check_mark.svg"
+																				class="px-1" alt=""> Verify</button>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<label class="upload-btn-label  mt-3 ">Upload GST
+																		Certificate</label>
+																	<div class="dropzone mt-1 dZUpload">
+																		<div class="dz-default dz-message">
+																			<button class="dz-button" type="button">
+																				<img src="assets/svg/file_upload.svg"
+																					class="file-upload-icons" alt="">
+																				Drop Files Here or <span>Browse</span>
+																			</button>
+																		</div>
+																	</div>
+																	<label class="info">Please select jpg, pdf, png
+																		formats only and attach a file up to 2 MB
+																		size</label>
+																	<div class="invalid-feedback">Please Upload GST
+																		Certificate</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="mobileno" required
+																			placeholder="Mobile No" value=""
+																			maxlength="10">
+																		<label for="mobileno">Mobile No <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter Valid
+																			Mobile Number</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			required placeholder="Trade Name"
+																			id="tradename" value="">
+																		<label for="tradename">Trade Name <span
+																				class="required_star">*</span> </label>
+																		<div class="invalid-feedback">Please Enter Trade
+																			Name</div>
+																		<div class="form-check">
+																			<input class="form-check-input"
+																				type="checkbox" value=""
+																				id="Same_as_Legal_Name" checked="">
+																			<label class="form-check-label info"
+																				for="Same_as_Legal_Name"> Same as Legal
+																				Name </label>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="row mr-0 ml-0 cardDesign mt-md-0 mt-3">
+																<div class="sub_header">
+																	<h1 class="title_terms">Input Bank Details </h1>
+																	<p class="para_style"> (Customer can add more
+																		account details once the onboarding is complete)
+																	</p>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div
+																		class="form-floating customFloatStyle mb-3 mt-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			required placeholder="Bank Name"
+																			id="Bank_Name">
+																		<label for="Bank_Name">Bank Name <span
+																				class="required_star">*</span> </label>
+																		<div class="invalid-feedback">Please Enter Bank
+																			Name </div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div
+																		class="form-floating customFloatStyle mb-3 mt-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			required placeholder="Account Number"
+																			id="attachedvehicles">
+																		<label for="attachedvehicles">Account Number
+																			<span class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			Account Number</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="d-flex mb-3">
+																		<div
+																			class="form-floating customFloatStyle flex-grow-1 me-2  mt-3">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="IFSCcode" required
+																				placeholder="IFSC Code" value="">
+																			<label for="IFSCcode">IFSC Code</label>
+																			<div class="invalid-feedback">Please Enter
+																				IFSC Code</div>
+																		</div>
+																		<button type="button"
+																			class="btn label-btn generate-otp p-2 fs-12 align-self-end"><img
+																				src="assets/svg/Check_mark.svg"
+																				class="px-1" alt=""> Verify</button>
+
+																	</div>
+																</div>
+
+																<div class="ccol-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<label class="upload-btn-label mt-3">Upload Cancel
+																		Cheque <span
+																			class="required_star">*</span></label>
+																	<div class="dropzone mt-1 dZUpload">
+																		<div class="dz-default dz-message">
+																			<button class="dz-button" type="button">
+																				<img src="assets/svg/file_upload.svg"
+																					class="file-upload-icons" alt="">
+																				Drop Files Here or <span>Browse</span>
+																			</button>
+																		</div>
+																	</div>
+																	<label class="info">Please select jpg, pdf, png
+																		formats only and attach a file up to 2 MB
+																		size</label>
+																	<div class="invalid-feedback">Please Upload Cancel
+																		Cheque</div>
+																</div>
+
+															</div>
+															<div class="row  mt-3  mr-0 ml-0 cardDesign">
+																<div class="sub_header">
+																	<h1 class="title_terms mb-3">Customer Segmentation
+																	</h1>
+																</div>
+																<div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+																	<div class="row pt-4">
+																		<label
+																			class="form-label mb-1 bold_font">Customer
+																			Identification <span
+																				class="required_star">*</span></label>
+																		<div class="col-xl-4 mt-2 pl-3">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="flexRadioDefault"
+																					id="Buyer" required="">
+																				<label class="form-check-label"
+																					for="Buyer"> Buyer</label>
+																			</div>
+																		</div>
+																		<div class="col-xl-4 mt-2 pl-3">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="flexRadioDefault"
+																					id="Partial_Buyer" required=""
+																					checked>
+																				<label class="form-check-label "
+																					for="Partial_Buyer">Partial Buyer
+																				</label>
+																			</div>
+																		</div>
+																		<div class="col-xl-4 mt-2 pl-3">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="flexRadioDefault"
+																					id="Non_Buyer" required="" checked>
+																				<label class="form-check-label "
+																					for="Non_Buyer">Non Buyer </label>
+																			</div>
+																		</div>
+																		<div class="invalid-feedback">Please Choose
+																			Customer Segmentation</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			required placeholder="Volume Potential"
+																			id="Volume_Potential">
+																		<label for="Volume_Potential">Volume Potential
+																			(KL) <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			Volume Potential</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			required placeholder="Organization Email ID"
+																			id="Organization_Email_ID">
+																		<label for="Organization_Email_ID">Organization
+																			Email ID <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter valid
+																			Organization Email ID already exist in
+																			Application.
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-12 col-md-12 col-sm-6 col-xs-12">
+																	<div class="row pt-4  mb-3">
+																		<label class="form-label mb-1 bold_font">Type of
+																			Business <span
+																				class="required_star">*</span></label>
+																		<div class="col-xl-3 mt-2">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="typeofbusiness"
+																					id="Proprietorship" required=""
+																					checked>
+																				<label class="form-check-label"
+																					for="Proprietorship">
+																					Proprietorship</label>
+																			</div>
+																		</div>
+																		<div class="col-xl-3 mt-2">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="typeofbusiness"
+																					id="Partnership" required="">
+																				<label class="form-check-label "
+																					for="Partnership">Partnership
+																				</label>
+																			</div>
+																		</div>
+																		<div class="col-xl-3 mt-2">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="typeofbusiness"
+																					required="">
+																				<label
+																					class="form-check-label ">Public/Pvt
+																					Ltd.</label>
+																			</div>
+																		</div>
+																		<div class="col-xl-3 mt-2">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="typeofbusiness"
+																					id="Other" required="">
+																				<label class="form-check-label "
+																					for="Other">Other</label>
+																			</div>
+																		</div>
+																		<div class="invalid-feedback">Please Choose Type
+																			of Business</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="col-xl-12 noOuterStyle  mb-3 mt-2">
+																		<label for="Customer_Segment"
+																			class="form-label mb-1 bold_font">Customer
+																			Segment <span class="required_star">*</span>
+																		</label>
+																		<select class="form-select int-sty"
+																			id="Customer_Segment"
+																			aria-label="Default select" required>
+																			<option value="0">Select</option>
+																			<option value="GGT">General goods
+																				Transportation</option>
+																			<option value="CIGMT">Commercial/Industrial
+																				Goods/Machinery Transportation</option>
+																			<option value="TT">Transportation TT (Fuels,
+																				Chemicals)</option>
+																			<option value="PT">Public transportation
+																				(Cab, School Bus, etc)</option>
+																			<option value="CC">Cargo Carriers</option>
+																			<option value="CT">Ceramic Transportation
+																			</option>
+																			<option value="RC">Retail Couriers</option>
+																		</select>
+																		<div class="invalid-feedback">Please Select
+																			Customer Segment</div>
+																	</div>
+																</div>
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="col-xl-12   noOuterStyle  mb-3">
+																		<label for="Otherstextarea"
+																			class="form-label mb-1 bold_font">Others
+																			(Describe)</label>
+																		<textarea class="form-control"
+																			aria-label="With textarea" rows="1"
+																			id="Otherstextarea"></textarea>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<div class="col-xl-12   noOuterStyle  mb-3">
+																		<label for="fuel_consumption"
+																			class="form-label mb-1 bold_font">Fuel
+																			Consumption Pattern <span
+																				class="required_star">*</span> </label>
+																		<select class="form-select int-sty  " required
+																			id="fuel_consumption"
+																			aria-label="Default select">
+																			<option value="0">Select</option>
+																			<option value="RMM">Regularly month on month
+																			</option>
+																			<option value="AR">Almost regular (exception
+																				of a month or two)</option>
+																			<option value="SS2">Seasonal (2-3 months
+																				gaps expected in two business cycles)
+																			</option>
+																			<option value="SS">Seasonal (>6 months gaps
+																				expected in two business cycles)
+																			</option>
+																			<option value="FCR">Fuel consume regularly
+																				(10kl)</option>
+																		</select>
+																		<div class="invalid-feedback">Please Select Fuel
+																			Consumption Pattern</div>
+
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<div class="col-xl-12   noOuterStyle  mb-3">
+																		<label for="lblbuyingPattern"
+																			class="form-label mb-1 bold_font">Buying
+																			Pattern<span class="required_star">*</span>
+																		</label>
+																		<select class="form-select int-sty  " required
+																			id="lblbuyingPattern"
+																			aria-label="Default select">
+																			<option selected="true" value="0">
+																				Select
+																			</option>
+																			<option value="36">Buys only from Nayara
+																			</option>
+																			<option value="37">Buys majority (&gt;75%)
+																				from Nayara, sometimes from Competition
+																			</option>
+																			<option value="38">50:50 from Nayara v/s
+																				Competition</option>
+																			<option value="39">Buys majority (&gt;75%)
+																				from Competition, sometimes from Nayara
+																				(&lt;25%)</option>
+																			<option value="40">Buys wholly from
+																				competition</option>
+																			<option value="533752">Alternate week -day
+																				2022</option>
+																		</select>
+																		<div class="invalid-feedback">Please Select
+																			Buying Pattern</div>
+																	</div>
+																</div>
+
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<div class="col-xl-12   noOuterStyle  mb-3">
+																		<label for="discountRequirement"
+																			class="form-label mb-1 bold_font">Current
+																			Fleet Rewards <span
+																				class="required_star">*</span> </label>
+																		<select class="form-select int-sty  " required
+																			id="discountRequirement"
+																			aria-label="Default select">
+																			<option selected="true" value="0">Select
+																			</option>
+																			<option value="41">0-25 Paise/Ltr</option>
+																			<option value="42">25-50 Paise/Ltr</option>
+																			<option value="43">50-75 Paise/Ltr</option>
+																			<option value="44">75-100 Paise/Ltr</option>
+																			<option value="45">100-125 Paise/Ltr
+																			</option>
+																			<option value="46">125-150 Paise/Ltr
+																			</option>
+																			<option value="47">150-175 Paise/Ltr
+																			</option>
+																			<option value="48">175-200 Paise/Ltr
+																			</option>
+																			<option value="49">Above 200 Paise/Ltr
+																			</option>
+																			<option value="533726">500</option>
+																			<option value="534153">d32</option>
+																		</select>
+																		<div class="invalid-feedback">Please Select
+																			Current Fleet Rewards</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<div class="col-xl-12   noOuterStyle  mb-3">
+																		<label for="creditRequirement"
+																			class="form-label mb-1 bold_font">Fuel
+																			Consumption Pattern <span
+																				class="required_star">*</span> </label>
+																		<select class="form-select int-sty"
+																			id="creditRequirement" required
+																			aria-label="Default select">
+																			<option selected="true" value="0">Select
+																			</option>
+																			<option value="50">0-7 Days</option>
+																			<option value="51">7-15 Days</option>
+																			<option value="52">15-30 Days</option>
+																			<option value="533707">100</option>
+																		</select>
+																		<div class="invalid-feedback">Please Select Fuel
+																			Consumption Pattern</div>
+																	</div>
+																</div>
+																<div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+																	<div class="row">
+																		<label class="form-label mb-1 bold_font">Related
+																			Party <span
+																				class="required_star">*</span></label>
+																		<div class="col-xl-3 mt-2">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="relatedparty"
+																					id="Yes" required="" checked>
+																				<label class="form-check-label"
+																					for="Yes"> Yes</label>
+																			</div>
+																		</div>
+																		<div class="col-xl-3 mt-2">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="relatedparty"
+																					id="No" required="">
+																				<label class="form-check-label "
+																					for="No">No </label>
+																			</div>
+																		</div>
+																		<div class="invalid-feedback">Please Choose
+																			Related Party</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			placeholder="CMS Code" id="CMS_Code">
+																		<label for="CMS_Code">CMS Code</label>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			placeholder="RO Name " id="ROName">
+																		<label for="ROName">RO Name</label>
+																	</div>
+																</div>
+																<div class="col-xl-12 col-md-12 col-sm-6 col-xs-12">
+																	<div class="row">
+																		<label
+																			class="form-label mb-1 bold_font">Currently
+																			Purchasing Form<span
+																				class="required_star">*</span></label>
+																		<div class="col-xl-2 mt-2">
+																			<div
+																				class="form-check form-check-md d-flex align-items-center">
+																				<input class="form-check-input"
+																					type="checkbox" value=""
+																					id="checkebox-IOCL" checked="">
+																				<label class="form-check-label"
+																					for="checkebox-IOCL"> IOCL </label>
+																			</div>
+																		</div>
+																		<div class="col-xl-2 mt-2">
+																			<div
+																				class="form-check form-check-md d-flex align-items-center">
+																				<input class="form-check-input"
+																					type="checkbox" value=""
+																					id="checkebox-BPCL">
+																				<label class="form-check-label"
+																					for="checkebox-BPCL"> BPCL </label>
+																			</div>
+																		</div>
+																		<div class="col-xl-2 mt-2">
+																			<div
+																				class="form-check form-check-md d-flex align-items-center">
+																				<input class="form-check-input"
+																					type="checkbox" value=""
+																					id="checkebox-HPCL">
+																				<label class="form-check-label"
+																					for="checkebox-HPCL"> HPCL </label>
+																			</div>
+																		</div>
+																		<div class="col-xl-2 mt-2">
+																			<div
+																				class="form-check form-check-md d-flex align-items-center">
+																				<input class="form-check-input"
+																					type="checkbox" value=""
+																					id="checkebox- JIO-BP">
+																				<label class="form-check-label"
+																					for="checkebox- JIO-BP"> JIO-BP
+																				</label>
+																			</div>
+																		</div>
+																		<div class="col-xl-2 mt-2">
+																			<div
+																				class="form-check form-check-md d-flex align-items-center">
+																				<input class="form-check-input"
+																					type="checkbox" value=""
+																					id="checkebox-Others">
+																				<label class="form-check-label"
+																					for="checkebox-Others"> Others
+																				</label>
+																			</div>
+																		</div>
+																		<div class="invalid-feedback">Please Choose
+																			Currently Purchasing Form</div>
+																	</div>
+																</div>
+															</div>
+															<div class="row pt-5 pb-3">
+																<div class="col-md-3  col-12">
+
+																	<button class=" btn btnBlue d-flex"
+																		type="cancel">Cancel</button>
+																</div>
+																<div class="col-md-6 col-12 center_align">
+																	<button class="btn btnReset pr-2"
+																		type="Reset">Reset</button>
+																	<button class="btn btngreen"
+																		type="submit">Save</button>
+																</div>
+																<div class="col-md-3 col-12 right_align">
+																	<button class=" btn btnBlue d-flex " type="Next"
+																		onclick="navigateTab('next', 'organization-details')">Next
+																		<img src="assets/svg/next.svg"
+																			class="next-ion d-md-inline d-none  pl-5"></button>
+																</div>
+															</div>
+														</form>
+													</div>
+													<div class="tab-pane fade border-0" id="fleet-operator-details"
+														role="tabpanel">
+
+														<h1 class="title_terms mb-3">Fleet Operator Details</h1>
+														<form class="needs-validation" novalidate>
+															<div class="row">
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			required placeholder="Fleet Operator Name"
+																			id="Fleet_Operator_Name">
+																		<label for="Fleet_Operator_Name">Fleet Operator
+																			Name <span class="required_star">*</span>
+																		</label>
+																		<div class="form-check">
+																			<input class="form-check-input"
+																				type="checkbox" value=""
+																				id="Fleet_Operator_legal">
+																			<label class="form-check-label info"
+																				for="Fleet_Operator_legal"> Same as
+																				Legal Name </label>
+																		</div>
+																		<div class="invalid-feedback">Please Enter Fleet
+																			Operator Name</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			placeholder="Fleet Operator Email ID"
+																			id="Fleet_Operator_Email_ID">
+																		<label for="Fleet_Operator_Email_ID">Fleet
+																			Operator Email ID </label>
+																		<div class="form-check">
+																			<input class="form-check-input"
+																				type="checkbox" value=""
+																				id="flexCheckChecked">
+																			<label class="form-check-label info"
+																				for="flexCheckChecked"> Same as
+																				Organization Email ID </label>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<div class="col-xl-12 noOuterStyle select2-pd-a">
+																		<label for="LanguagePreference"
+																			class="form-label bold_font select2-pd">Language
+																			Preference</label>
+																		<select class="form-select int-sty"
+																			id="LanguagePreference"
+																			aria-label="Default select">
+																			<option value="0">Select</option>
+																			<option value="ENGLISH">English</option>
+																			<option value="HINDI">Hindi</option>
+																			<option value="MARATHI">Marathi</option>
+																			<option value="ASSAMESE">Assamese</option>
+																			<option value="GUJARATI">Gujarati</option>
+																			<option value="KANNADA">Kannada</option>
+																			<option value="MARWARI">Marwari</option>
+																			<option value="ORIYA">Oriya</option>
+																			<option value="PUNJABI">Punjabi</option>
+																			<option value="TAMIL">Tamil</option>
+																			<option value="TELUGU">Telugu</option>
+																			<option value="OTHERS">Others</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="col-xl-8 col-md-8 col-sm-8 col-xs-12">
+																	<div class="row">
+																		<div
+																			class="col-xl-6 noOuterStyle id-proof-mr pt-2 select2-pd-a">
+																			<label for="ID_Proof"
+																				class="form-label bold_font select2-pd">ID
+																				Proof <span
+																					class="required_star">*</span>
+																			</label>
+																			<select
+																				class="form-select int-sty id-proof-mr"
+																				id="ID_Proof"
+																				aria-label="Default select" required>
+																				<option value="0">Select</option>
+																				<option value="Pancard">Pancard</option>
+																				<option value="Voter_ID">Voter ID
+																				</option>
+																				<option value="Driving_License">Driving
+																					License</option>
+																				<option value="OTHERS">Others</option>
+																			</select>
+																			<label class="info">ID Proof of Fleet
+																				Operator only do not add ID proof of
+																				Random Employee/Manager/Driver etc.
+																			</label>
+																		</div>
+																		<div class="col-xl-6">
+																			<div
+																				class="form-floating customFloatStyle mb-3">
+																				<input type="text"
+																					class="form-control border-bottom-only"
+																					required placeholder="ID_Proof_ No"
+																					id="ID_Proof_No" value="">
+																				<label for="ID_Proof_No">ID Proof
+																					No</label>
+																			</div>
+																			<div class="invalid-feedback">Please Choose
+																				Currently Purchasing Form</div>
+																		</div>
+																	</div>
+																</div>
+
+
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<label class="upload-btn-label">Upload Id Proof
+																		<span class="required_star">*</span></label>
+																	<div class="dropzone mt-1 dZUpload">
+																		<div class="dz-default dz-message">
+																			<button class="dz-button" type="button">
+																				<img src="assets/svg/file_upload.svg"
+																					class="file-upload-icons" alt="">
+																				Drop Files Here or <span>Browse</span>
+																			</button>
+																		</div>
+																	</div>
+																	<label class="info">Please select jpg, pdf, png
+																		formats only and attach a file up to 2 MB
+																		size</label>
+																</div>
+
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12 pt-3">
+																	<div class="col-xl-12   noOuterStyle">
+																		<label for="textareaother"
+																			class="form-label mb-1 bold_font">Others
+																			(Describe)</label>
+																		<textarea class="form-control"
+																			aria-label="With textarea" rows="1"
+																			id="textareaother"></textarea>
+																	</div>
+																</div>
+															</div>
+															<div class="row pt-5 pb-3">
+																<div class="col-md-3 col-12 left_align">
+																	<button class=" btn btnBlue d-flex " type="Previous"
+																		onclick="navigateTab('prev', 'fleet-operator-details')"><img
+																			src="assets/svg/Previous.svg"
+																			class="Previous-ion pl-5">Previous </button>
+																</div>
+																<div class="col-md-6 col-12 mt-md-0 mt-1 center_align">
+																	<button class="btn btnReset pr-2"
+																		type="Reset">Reset</button>
+																	<button class="btn btngreen"
+																		type="submit">Save</button>
+																</div>
+																<div class="col-md-3 col-12 right_align">
+																	<button class=" btn btnBlue d-flex " type="Next"
+																		onclick="navigateTab('next', 'fleet-operator-details')">Next
+																		<img src="assets/svg/next.svg"
+																			class="next-ion pl-5"></button>
+																</div>
+															</div>
+														</form>
+													</div>
+													<div class="tab-pane fade border-0" id="organization-address"
+														role="tabpanel">
+														<h1 class="title_terms mb-3">Organization Address</h1>
+														<form class="needs-validation" novalidate>
+															<div class="row">
+																<div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="Organization_Address" required
+																			placeholder=">Organization Address"
+																			value="">
+																		<label for="Organization_Address">Organization
+																			Address <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			Organization Address </div>
+																	</div>
+																</div>
+																<div class="col-xl-12 col-md-12 col-sm-12 col-xs-12">
+																	<div class="row">
+																		<div
+																			class="col-xl-4 noOuterStyle pt-2 select2-pd-a">
+																			<label for="Address_Proof_organization"
+																				class="form-label mb-1 bold_font">Address
+																				Proof <span
+																					class="required_star">*</span>
+																			</label>
+																			<select id="Address_Proof_organization"
+																				name="Address Proof"
+																				class="form-control form-select int-sty">
+																				<option selected="selected"
+																					value="--Select--"> --Select--
+																				</option>
+																				<option selected="selected" value="0">
+																					Select</option>
+																				<option value="ORGADDR1">Electricity
+																					bill</option>
+																				<option value="ORGADDR10">Incorporation
+																					Certificate</option>
+																				<option value="ORGADDR2">MSME
+																					Certificate</option>
+																				<option value="ORGADDR3">Registration
+																					Certificate</option>
+																				<option value="ORGADDR4">Muncipal
+																					Certificate</option>
+																				<option value="ORGADDR5">Water Bill
+																				</option>
+																				<option value="ORGADDR6">Rent Agreement
+																				</option>
+																				<option value="ORGADDR7">Property Tax
+																					document</option>
+																				<option value="ORGADDR8">Other</option>
+																				<option value="ORGADDR9">Rera
+																					Certificate</option>
+																			</select>
+																			<label class="info">ID Proof of Fleet
+																				Operator only do not add ID proof of
+																				Random Employee/Manager/Driver etc.
+																			</label>
+																		</div>
+																		<div class="col-xl-4">
+																			<div
+																				class="form-floating customFloatStyle mb-3">
+																				<input type="text"
+																					class="form-control border-bottom-only"
+																					placeholder="Address" required
+																					id="Address" value="">
+																				<label for="Address">Address</label>
+																				<div class="invalid-feedback">Please
+																					Enter Organization Address </div>
+																			</div>
+																		</div>
+
+																		<div
+																			class="col-xl-4 col-md-4 col-sm-4 col-xs-12 ">
+																			<label class="upload-btn-label">Upload
+																				Address Proof <span
+																					class="required_star">*</span></label>
+																			<div class="dropzone mt-1 dZUpload">
+																				<div class="dz-default dz-message">
+																					<button class="dz-button"
+																						type="button">
+																						<img src="assets/svg/file_upload.svg"
+																							class="file-upload-icons"
+																							alt="">
+																						Drop Files Here or
+																						<span>Browse</span>
+																					</button>
+																				</div>
+																			</div>
+																			<label class="info">Please select jpg, pdf,
+																				png formats only and attach a file up to
+																				2 MB size</label>
+																		</div>
+
+
+
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<div class="col-xl-12   noOuterStyle">
+																		<label for="floatingInput"
+																			class="form-label mb-1 bold_font">Others
+																			(Describe)</label>
+																		<textarea class="form-control"
+																			aria-label="With textarea"
+																			id="floatingInput" rows="1"></textarea>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="OrganizationPincode" required
+																			placeholder="Pincode " value="">
+																		<label for="OrganizationPincode">Pincode <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			Pincode </div>
+
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="OrganizationState" required
+																			placeholder="State " value="">
+																		<label for="OrganizationState">State <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter State
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="organizationcity" required
+																			placeholder="City" value="">
+																		<label for="organizationcity">City <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter City
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="OrganizationDistrict" required
+																			placeholder="District" value="">
+																		<label for="OrganizationDistrict">District <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			District </div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="OrganizationLandline"
+																			placeholder="Landline" value="">
+																		<label for="OrganizationLandline">Landline
+																			Number with STD code/Mobile Number </label>
+
+																	</div>
+																</div>
+
+															</div>
+
+															<div class="row pt-5 pb-3">
+																<div class="col-md-3 col-12 left_align">
+																	<button class=" btn btnBlue d-flex" type="Previous"
+																		onclick="navigateTab('prev', 'organization-address')"><img
+																			src="assets/svg/Previous.svg"
+																			class="Previous-ion pl-5">Previous </button>
+																</div>
+																<div class="col-md-6 col-12 mt-md-0 mt-2 center_align">
+																	<button class="btn btnReset pr-2"
+																		type="Reset">Reset</button>
+																	<button class="btn btngreen"
+																		type="submit">Save</button>
+																</div>
+																<div class="col-md-3 col-12 right_align">
+																	<button class=" btn btnBlue d-flex" type="Next"
+																		onclick="navigateTab('next', 'organization-address')">Next
+																		<img src="assets/svg/next.svg"
+																			class="next-ion pl-5"></button>
+																</div>
+															</div>
+														</form>
+													</div>
+													<div class="tab-pane fade border-0" id="branch-office-location"
+														role="tabpanel">
+														<h1 class="title_terms mb-3">Branch Office Location</h1>
+														<form class="needs-validation" novalidate>
+															<div class="row">
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="LocationPincode" required
+																			placeholder="Pincode " value="">
+																		<label for="LocationPincode">Pincode <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			Pincode </div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="LocationCity" required
+																			placeholder="City" value="">
+																		<label for="LocationCity">City <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter City
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="Office-location" required
+																			placeholder="Office location" value="">
+																		<label for="Office-location">Office location
+																			<span class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			Office location </div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="ManagerName" required
+																			placeholder="Manager Name" value="">
+																		<label for="ManagerName">Manager Name <span
+																				class="required_star">*</span></label>
+																		<div class="invalid-feedback">Please Enter
+																			Manager Name </div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			placeholder="Branch Office Location Email Id"
+																			id="Branch_office_location" value="">
+																		<label for="Branch_office_location">Branch
+																			Office Location Email Id</label>
+																		<div class="form-check">
+																			<input class="form-check-input"
+																				type="checkbox" value=""
+																				id="Same_Organization_id">
+																			<label class="Branch-Office"
+																				for="Same_Organization_id"> Same as
+																				Organization Email ID</label>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="Branchofficelocationmobile"
+																			placeholder="Branch Office Location Mobile Number"
+																			value="">
+																		<label for="Branchofficelocationmobile">Branch
+																			Office Location Mobile Number <span
+																				class="required_star">*</span></label>
+																		<div class="form-check">
+																			<input class="form-check-input"
+																				type="checkbox" value=""
+																				id="Same_Organization_Email_id">
+																			<label class="Branch-Office"
+																				for="Same_Organization_Email_id"> Same
+																				as Organization Email ID</label>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="Branchofficelocation"
+																			placeholder="Branch Office Location Mobile Number"
+																			value="">
+																		<label for="Branchofficelocation">Branch Office
+																			Location Address <span
+																				class="required_star">*</span></label>
+																	</div>
+																</div>
+																<div
+																	class="col-xl-4 noOuterStyle select2-pd-a select2-pd-a-head">
+																	<label for="mLanguage"
+																		class="form-label mb-1 bold_font">Language
+																		Preference</label>
+																	<select id="mLanguage" name="mLanguage"
+																		class="form-control form-select int-sty">
+																		<option selected="selected" value="Select">
+																			Select</option>
+																		<option value="ENGLISH">English</option>
+																		<option value="HINDI">Hindi</option>
+																		<option value="MARATHI">Marathi</option>
+																		<option value="ASSAMESE">Assamese</option>
+																		<option value="BENGALI">Bengali</option>
+																		<option value="GUJARATI">Gujarati</option>
+																		<option value="KANNADA">Kannada</option>
+																		<option value="MARWARI">Marwari</option>
+																		<option value="ORIYA">Oriya</option>
+																		<option value="PUNJABI">Punjabi</option>
+																		<option value="TAMIL">Tamil</option>
+																		<option value="TELUGU">Telugu</option>
+																		<option value="OTHERS">Others</option>
+																	</select>
+																</div>
+															</div>
+															<div id="addlocation">
+																<div class="row mr-0 ml-0 cardDesign mt-md-0 mt-3">
+																	<div class="sub_header">
+																		<h1 class="title_terms mb-3   ">Branch Office
+																			Location 2</h1>
+																	</div>
+
+																	<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																		<div
+																			class="form-floating customFloatStyle mb-3">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="BranchPincode" placeholder="Pincode"
+																				value="">
+																			<label for="BranchPincode">Pincode <span
+																					class="required_star">*</span></label>
+																		</div>
+																	</div>
+																	<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																		<div
+																			class="form-floating customFloatStyle mb-3">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="BranchCity" placeholder="City"
+																				value="">
+																			<label for="BranchCity">City <span
+																					class="required_star">*</span></label>
+																		</div>
+																	</div>
+																	<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																		<div
+																			class="form-floating customFloatStyle mb-3">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="BranchOfficeLocation"
+																				placeholder="Office location" value="">
+																			<label for="BranchOfficeLocation">Office
+																				location <span
+																					class="required_star">*</span></label>
+																		</div>
+																	</div>
+																	<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																		<div
+																			class="form-floating customFloatStyle mb-3">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="BranchManagerName"
+																				placeholder="Manager Name" value="">
+																			<label for="BranchManagerName">Manager Name
+																				<span
+																					class="required_star">*</span></label>
+																		</div>
+																	</div>
+																	<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																		<div
+																			class="form-floating customFloatStyle mb-3">
+																			<input type="email"
+																				class="form-control border-bottom-only"
+																				id="BranchEmail"
+																				placeholder="Branch Office Location Email Id"
+																				value="">
+																			<label for="BranchEmail">Branch Office
+																				Location Email Id</label>
+																		</div>
+																	</div>
+																	<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																		<div
+																			class="form-floating customFloatStyle mb-3">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="BranchMobile"
+																				placeholder="Branch Office Location Mobile Number"
+																				value="">
+																			<label for="BranchMobile">Branch Office
+																				Location Mobile Number <span
+																					class="required_star">*</span></label>
+																		</div>
+																	</div>
+																	<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																		<div
+																			class="form-floating customFloatStyle mb-3">
+																			<input type="text"
+																				class="form-control border-bottom-only"
+																				id="BranchAddress"
+																				placeholder="Branch Office Location Address"
+																				value="">
+																			<label for="BranchAddress">Branch Office
+																				Location Address <span
+																					class="required_star">*</span></label>
+																		</div>
+																	</div>
+																	<div class="col-xl-4 noOuterStyle select2-pd-a">
+																		<label for="mLanguage_02"
+																			class="form-label mb-1 bold_font">Language
+																			Preference <span
+																				class="required_star">*</span> </label>
+																		<select id="mLanguage_02" name="mLanguage_02"
+																			class="form-control form-select int-sty">
+																			<option selected="selected"
+																				value="--Select--">--Select--</option>
+																			<option value="ENGLISH">English</option>
+																			<option value="HINDI">Hindi</option>
+																			<option value="MARATHI">Marathi</option>
+																			<option value="ASSAMESE">Assamese</option>
+																			<option value="BENGALI">Bengali</option>
+																			<option value="GUJARATI">Gujarati</option>
+																			<option value="KANNADA">Kannada</option>
+																			<option value="MARWARI">Marwari</option>
+																			<option value="ORIYA">Oriya</option>
+																			<option value="PUNJABI">Punjabi</option>
+																			<option value="TAMIL">Tamil</option>
+																			<option value="TELUGU">Telugu</option>
+																			<option value="OTHERS">Others</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div
+																	class="col-md-12 center_align pt-3 d-flex justify-content-center">
+																	<button class=" btn btnBlue d-flex"
+																		id="addofficelocation" type="button">Add
+																		location</button>
+																</div>
+															</div>
+															<div class="row pt-5 pb-3">
+																<div class="col-md-3 col-12 left_align">
+																	<button class=" btn btnBlue d-flex "
+																		onclick="navigateTab('prev', 'branch-office-location')"><img
+																			src="assets/svg/Previous.svg"
+																			class="Previous-ion pl-5">Previous </button>
+																</div>
+																<div class="col-md-6 col-12 mt-md-0 mt-2 center_align">
+																	<button class="btn btnReset pr-2">Reset</button>
+																	<button class="btn btngreen"
+																		type="submit">Save</button>
+																</div>
+																<div class="col-md-3 col-12 right_align">
+																	<button class=" btn btnBlue d-flex n"
+																		onclick="navigateTab('next', 'branch-office-location')">Next
+																		<img src="assets/svg/next.svg"
+																			class="next-ion pl-5"></button>
+																</div>
+															</div>
+														</form>
+													</div>
+													<div class="tab-pane fade border-0" id="additional-details"
+														role="tabpanel">
+														<h1 class="title_terms mb-3">Additional Details</h1>
+														<form class="needs-validation" novalidate>
+															<div class="row">
+																<div class="col-xl-12 col-md-12 col-sm-6 col-xs-12">
+																	<h5 class="fs_12 mb-2">ATTACHING GST DECLARATION
+																		HERE IS MANDATORY IN CASE GST NUMBER IS NOT
+																		PROVIDED WEB AND APP BOTH REKYC AND ONBOARDING
+																	</h5>
+																</div>
+															</div>
+															<div class="row">
+																<div id="addDetailsContainer">
+																	<div id="addDetails"
+																		class="col-xl-12 col-md-12 col-sm-6 col-xs-12 addDetails">
+																		<div class="row input-container">
+																			<div
+																				class="col-xl-4 col-md-4 col-sm-6 col-xs-12 pt-3">
+																				<div
+																					class="form-floating customFloatStyle mb-3">
+																					<input type="text"
+																						class="form-control border-bottom-only"
+																						id="DocumentName"
+																						placeholder="Document Name"
+																						value="">
+																					<label for="DocumentName">Document
+																						Name</label>
+																				</div>
+																			</div>
+																			<div
+																				class="col-xl-8 col-md-8 col-sm-8 col-xs-12 pt-3">
+																				<div class="row">
+																					<div class="col-md-10 pt-3">
+																						<div
+																							class="customFloatStyle mt-2">
+
+																							<div
+																								class="dropzone mt-1 dZUpload">
+																								<div class="dz-default dz-message"
+																									id="documentFile">
+																									<button
+																										class="dz-button"
+																										type="button">
+																										<img src="assets/svg/file_upload.svg"
+																											class="file-upload-icons"
+																											alt="">
+																										Drop Files Here
+																										or
+																										<span>Browse</span>
+																									</button>
+																								</div>
+																							</div>
+
+																							<label class="info">Please
+																								select jpg, pdf, png
+																								formats only and attach
+																								file up to 2 MB
+																								size</label>
+																						</div>
+																					</div>
+																					<div class="col-md-2 pt-3">
+																						<img src="assets/svg/trash.svg"
+																							alt="icons"
+																							class="trash-icon delete-button">
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div
+																	class="col-md-12 center_align pt-3 d-flex justify-content-center">
+																	<button id="duplicateBtn"
+																		class="btn btn-primary mt-3">Add
+																		Document</button>
+
+																</div>
+
+															</div>
+															<div class="row pt-5 pb-3">
+																<div class="col-md-3 col-12 left_aligng">
+																	<button class=" btn btnBlue d-flex n"
+																		onclick="navigateTab('prev', 'additional-details')"><img
+																			src="assets/svg/Previous.svg"
+																			class="Previous-ion pl-5">Previous </button>
+																</div>
+																<div class="col-md-6 col-12 mt-md-0 mt-2 center_align">
+																	<button class="btn btnReset pr-2">Reset</button>
+																	<button class="btn btngreen"
+																		type="submit">Save</button>
+																</div>
+																<div class="col-md-3 col-12 right_align">
+																	<button class=" btn btnBlue d-flex "
+																		onclick="navigateTab('next', 'additional-details')">Next
+																		<img src="assets/svg/next.svg"
+																			class="next-ion pl-5"></button>
+																</div>
+															</div>
+														</form>
+													</div>
+													<div class="tab-pane fade" id="customer-meeting-details"
+														role="tabpanel">
+														<h1 class="title_terms mb-3">Customer Meeting Details</h1>
+														<form class="needs-validation" novalidate>
+															<div class="row">
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+																	<div class="row">
+																		<label class="form-label mb-1 bold_font">Meeting
+																			Type <span
+																				class="required_star">*</span></label>
+																		<div class="col-xl-4 mt-2 pl-3">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="flexRadioDefault"
+																					id="Telephonic" required="" checked>
+																				<label class="form-check-label"
+																					for="Telephonic"> Telephonic</label>
+																				<div class="invalid-feedback">Please
+																					Enter Office location </div>
+																			</div>
+																		</div>
+																		<div class="col-xl-4 mt-2 pl-0">
+																			<div class="form-check">
+																				<input class="form-check-input"
+																					type="radio" name="flexRadioDefault"
+																					id="In Person" required="">
+																				<label class="form-check-label"
+																					for="In Person">In Person</label>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-12  noOuterStyle">
+																	<label class="form-label mb-1 bold_font pt-1">Date
+																		of meeting <span
+																			class="required_star">*</span></label>
+																	<div class="d-flex mt-sm-0 mt-2 align-items-center">
+																		<div class="input-group">
+																			<input type="text" id="datepicker"
+																				data-input
+																				class="form-control bg-light searchWithoutBorder"
+																				required
+																				aria-describedby="search-contact-member" />
+																			<button aria-label="button"
+																				class=" btn btnBlue d-flexStl searchIconwithoutBorder"
+																				type="button"
+																				id="search-contact-member">
+																				<i class="fa fa-calendar"
+																					aria-hidden="true"></i>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-4 col-xs-12">
+																	<div
+																		class="col-xl-12   noOuterStyle pt-2 select2-pd-a">
+																		<label for="CustomerSegment1"
+																			class="form-label mb-1 bold_font">Customer
+																			Segment <span class="required_star">*</span>
+																		</label>
+																		<select class="form-select int-sty  "
+																			id="CustomerSegment1"
+																			aria-label="Default select">
+																			<option selected="true" value="0">Select
+																			</option>
+																			<option value="1">1</option>
+																			<option value="2">2</option>
+																			<option value="3">3</option>
+																			<option value="4">4</option>
+																			<option value="5">5</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12  pt-4">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="Name-Representitive"
+																			placeholder="Name Representitive" value="">
+																		<label for="Name-Representitive">Name of
+																			Representitive<span
+																				class="required_star">*</span></label>
+																	</div>
+																</div>
+																<div class="col-xl-4 col-md-4 col-sm-6 col-xs-12 pt-4">
+																	<div class="form-floating customFloatStyle mb-3">
+																		<input type="text"
+																			class="form-control border-bottom-only"
+																			id="mobilenumberRepresentitive"
+																			placeholder="Mobile No" value=""
+																			maxlength="10">
+																		<label for="mobilenumberRepresentitive">Mobile
+																			Number of Representitive<span
+																				class="required_star">*</span></label>
+																	</div>
+																</div>
+																<div class="col-xl-8 col-md-8 col-sm-8 col-xs-8 pt-3">
+																	<div class="noOuterStyle">
+																		<label for="floatingInput"
+																			class="form-label mb-1 bold_font">
+																			Discussion Points (If meeting type is
+																			telephonic , put date when you plan to meet
+																			the customer in person along with other
+																			remarks) <span
+																				class="required_star">*</span></label>
+																		<textarea class="form-control"
+																			aria-label="With textarea"
+																			rows="5"></textarea>
+																	</div>
+																</div>
+															</div>
+															<div class="row pt-5 pb-3">
+																<div class="col-md-3 col-3 left_align">
+																	<button class=" btn btnBlue d-flex " type="Previous"
+																		onclick="navigateTab('prev', 'customer-meeting-details')"><img
+																			src="assets/svg/Previous.svg"
+																			class="Previous-ion pl-5">Previous </button>
+																</div>
+
+																<div class="col-md-9 col-9 right_align">
+																	<button class="btn btnReset pr-2 mr-2"
+																		type="Reset">Reset</button>
+																	<button class="btn btngreen"
+																		type="submit">Save</button>
+																</div>
+
+															</div>
+														</form>
+													</div>
+
+												</div>
+
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end col-->
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<!-- End::app-content -->
+	<!-- Footer Start -->
+	<footer class="footer mt-auto py-3 bg-white text-center">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 left_align lh_27"> <span class="copy_right">2024 © Developed By Worldline</span>
+				</div>
+				<div class="col-md-8">
+					<ul class="ps-2 footer_menu">
+						<li class="p-1 "> <a href="javascript:void(0)" class="text-primary">Complaint / Feedback</a>
+						</li>
+						<li class="p-1 "> <a href="javascript:void(0)" class="text-primary">Disclaimer</a> </li>
+						<li class="p-1 "> <a href="javascript:void(0)" class="text-primary">Sitemap</a> </li>
+						<li class="p-1 "> <a href="javascript:void(0)" class="text-primary">Terms & Conditions</a> </li>
+						<li class="p-1 "> <a href="javascript:void(0)" class="text-primary">FAQs</a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<div class="modal fade modal_popup" id="Successmsg" tabindex="-1" aria-labelledby="centeredModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered">
+			<div class="modal-content background_terms">
+				<div class="modal-body background_color">
+					<div class="mt-3">
+						<div class="">
+							<div class="ps-2">
+								<div class="container text-cenger"> <img src="assets/images/media/success.gif"
+										class="notificationImg">
+									<h1 class="title_success mt-2 mb-2">Success</h1>
+									<p class="messageStyle">Details Saved Successfully!</p>
+									<div class="row">
+										<div class="col-md-12 mt-2">
+											<button class="btn  btnGreen" data-bs-dismiss="modal">Continue</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap and other necessary libraries -->
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- DataTables core files -->
+	<script src="assets/js/datatable/dataTables.js"></script>
+	<script src="assets/js/datatable/dataTables.bootstrap5.js"></script>
+	<script src="assets/js/responsive/dataTables.responsive.js"></script>
+	<script src="assets/js/responsive/responsive.bootstrap5.js"></script>
+	<!-- DataTables Buttons extension and related scripts -->
+	<script src="assets/js/datatable/dataTables.buttons.min.js"></script>
+	<script src="assets/js/datatable/buttons.bootstrap5.min.js"></script>
+	<script src="assets/js/datatable/jszip.min.js"></script>
+	<script src="assets/js/datatable/pdfmake.min.js"></script>
+	<script src="assets/js/datatable/vfs_fonts.js"></script>
+	<script src="assets/js/datatable/buttons.html5.min.js"></script>
+	<script src="assets/js/datatable/buttons.print.min.js"></script>
+	<!-- Custom scripts -->
+	<link rel="stylesheet" href="assets/css/flatpickr.min.css">
+	<script src="assets/js/flatpickr.min.js"></script>
+	<script src="assets/js/defaultmenu.min.js"></script>
+	<script src="assets/js/sticky.js"></script>
+	<script src="assets/js/select2.min.js"></script>
+
+
+	<!-- file upload -->
+	<script src="assets/js/dropzone-min.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			var totalTabs = $('.nav-link').length;
+			var currentTab = 1;
+
+			function showHideControls() {
+				$('#prevbtn').toggle(currentTab > 1);
+				$('#ntxbtn').toggle(currentTab < totalTabs);
+			}
+
+			$('#ntxbtn').click(function (e) {
+				e.preventDefault();
+				if (currentTab < totalTabs) {
+					currentTab++;
+					$('.nav-link.active').removeClass('active').next().addClass('active');
+					$('.tab-pane.active').removeClass('show active').next().addClass('show active');
+					showHideControls();
+				}
+			});
+
+			$('#prevbtn').click(function (e) {
+				e.preventDefault();
+				if (currentTab > 1) {
+					currentTab--;
+					$('.nav-link.active').removeClass('active').prev().addClass('active');
+					$('.tab-pane.active').removeClass('show active').prev().addClass('show active');
+					showHideControls();
+				}
+			});
+
+			// Initialize button visibility
+			showHideControls();
+
+			// Flatpickr initialization
+			const fromDate = $('#datepicker').flatpickr({
+				dateFormat: 'd-m-Y',
+				onChange: function (sel_date, date_str) {
+					endDate.set('minDate', date_str);
+				},
+			});
+
+			const endDate = $('#datepickerTo').flatpickr({
+				dateFormat: 'd-m-Y',
+			});
+
+			// Open datepickers on button click
+			$('#search-contact-member').on('click', function () {
+				fromDate.open();
+			});
+
+			$('#search-contact-member1').on('click', function () {
+				endDate.open();
+			});
+
+			// Initialize DataTable
+			myCustomFunction();
+
+			// Redraw DataTable when the tab is shown
+			$('a[data-bs-toggle="pill"]').on('shown.bs.tab', function (e) {
+				$.fn.dataTable.tables({ visible: true, api: true }).columns.adjust().responsive.recalc();
+			});
+
+			// Select2 Initialization
+			$('#mySelect, #fuel_consumption, #Language_Preference, #ID_Proof, #CustomerSegment1, #Address_Proof_organization, #mLanguage, #mLanguage_02, #LanguagePreference, #Customer_Segment, #CustomerSegment, #lblbuyingPattern, #discountRequirement, #creditRequirement').select2({
+				placeholder: 'Select an option',
+				allowClear: false,
+				theme: 'classic',
+			});
+
+			// Toggle location section
+			$('#addofficelocation').click(function () {
+				var $addLocation = $('#addlocation');
+				if ($addLocation.is(':visible')) {
+					$addLocation.fadeOut(500, function () {
+						$('#locationText').text(''); // Clear location text
+					});
+					$(this).text('Add Location'); // Reset button text
+				} else {
+					$addLocation.fadeIn(500);
+					$(this).text('Remove Location'); // Change button text
+				}
+			});
+
+			// Dropzone initialization
+			initializeDropzone();
+
+			// Duplicate addDetails div
+			$('#duplicateBtn').click(function () {
+				let originalDiv = document.querySelector('.addDetails');
+				let clone = originalDiv.cloneNode(true);
+				clone.querySelector('input[type="text"]').value = '';
+				//    clone.querySelector('input[type="file"]').value = '';
+				clone.querySelector('.delete-button').addEventListener('click', function () {
+					clone.remove();
+				});
+				document.getElementById('addDetailsContainer').appendChild(clone);
+			});
+
+			// Add event listener to the first delete button
+			document.querySelector('.delete-button').addEventListener('click', function () {
+				document.querySelector('.addDetails').remove();
+			});
+		});
+
+		// Function to initialize DataTable
+		function myCustomFunction() {
+			new DataTable('#managerDetails', {
+				dom: "<'row'<'col-sm-12 col-md-6'l><'col-sm-12 col-md-6'Bf>>" +
+					"<'row'<'col-sm-12'tr>>" +
+					"<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>",
+				buttons: [
+					{
+						extend: 'excelHtml5',
+						text: '<img src="assets/svg/xls.svg" class="fileStl">',
+						className: 'btnStl',
+						titleAttr: 'Download Excel',
+					},
+					{
+						extend: 'pdfHtml5',
+						text: '<img src="assets/svg/pdf.svg" class="fileStl">',
+						className: 'btnStl',
+						titleAttr: 'Download PDF',
+					},
+				],
+				responsive: true,
+			});
+		}
+
+		// Dropzone initialization function
+		function initializeDropzone() {
+			Dropzone.autoDiscover = false;
+			let dropzones = document.querySelectorAll('.dZUpload');
+			dropzones.forEach(function (dropzoneElement) {
+				new Dropzone(dropzoneElement, {
+					url: "/upload",
+					addRemoveLinks: true,
+					acceptedFiles: 'image/jpeg,image/png,application/pdf',
+					maxFilesize: 2,
+					maxFiles: 1,
+					init: function () {
+						this.on("maxfilesexceeded", function (file) {
+							this.removeAllFiles();
+							this.addFile(file);
+						});
+					}
+				});
+			});
+		}
+
+		// Form validation script
+		(function () {
+			"use strict";
+			window.addEventListener("load", function () {
+				var forms = document.getElementsByClassName("needs-validation");
+				Array.prototype.filter.call(forms, function (form) {
+					form.addEventListener("submit", function (event) {
+						var isValid = true;
+						// Loop through all select elements
+						var selectBoxes = form.getElementsByTagName('select');
+						Array.prototype.forEach.call(selectBoxes, function (select) {
+							if (select.hasAttribute('required') && (select.value === "" || select.value === "0")) {
+								isValid = false;
+								select.classList.add("is-invalid"); // Add Bootstrap's invalid class
+							} else {
+								select.classList.remove("is-invalid");
+							}
+						});
+						if (!form.checkValidity()) {
+							event.preventDefault();
+							event.stopPropagation();
+						} else {
+							event.preventDefault();
+							$('#add').modal('show');
+						}
+						form.classList.add("was-validated");
+					}, false);
+				});
+			}, false);
+		})();
+
+
+		function navigateTab(direction, currentTab) {
+			const tabs = ['organization-details', 'fleet-operator-details', 'organization-address',
+				'branch-office-location', 'additional-details', 'customer-meeting-details'];
+			const currentIndex = tabs.indexOf(currentTab);
+
+			if (direction === 'next' && currentIndex < tabs.length - 1) {
+				// Move to the next tab
+				document.getElementById(tabs[currentIndex + 1] + '-tab').click();
+			} else if (direction === 'prev' && currentIndex > 0) {
+				// Move to the previous tab
+				document.getElementById(tabs[currentIndex - 1] + '-tab').click();
+			}
+		}
+
+
+	</script>
+
+</body>
+
+</html>
